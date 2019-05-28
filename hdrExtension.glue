@@ -1,0 +1,8 @@
+run file glue/hdrDeleteExtension.glue
+run file glue/hdrSchemaExtensions.glue
+
+project hbv
+  run file glue/hdrModules.glue
+  run script glue/hdrLoadData.js
+  
+  exit

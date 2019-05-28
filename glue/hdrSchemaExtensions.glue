@@ -1,0 +1,19 @@
+schema-project hbv
+
+  create custom-table hdr_drug
+
+  table hdr_drug
+    create field abbreviated_name VARCHAR 10
+    exit
+  
+  create custom-table hdr_ras
+
+  create link variation hdr_ras
+
+  create custom-table hdr_ras_drug
+
+  create link hdr_ras hdr_ras_drug -m ONE_TO_MANY
+
+  create link hdr_ras_drug hdr_drug -m MANY_TO_ONE
+  
+  exit

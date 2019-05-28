@@ -1,0 +1,12 @@
+<ecmaFunctionInvoker>
+	<scriptFileName>hdrReportingController.js</scriptFileName>
+	<function>
+		<name>reportFasta</name>
+		<parameter>
+			<name>fastaFilePath</name>
+			<pathCompleter/>
+		</parameter>
+		<documentResultType/> 
+	</function>
+</ecmaFunctionInvoker>
+	

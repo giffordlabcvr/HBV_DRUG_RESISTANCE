@@ -1,0 +1,15 @@
+project hbv
+  delete module -w "name like 'hdr%'"
+  multi-delete variation -w "name like 'hdr_ras:%'"
+  delete source sreenu
+  exit
+
+schema-project hbv
+  delete link variation hdr_ras
+  delete link hdr_ras_drug hdr_drug
+  delete link hdr_ras hdr_ras_drug
+
+  delete custom-table hdr_drug
+  delete custom-table hdr_ras
+  delete custom-table hdr_ras_drug
+  exit
