@@ -1,0 +1,11 @@
+<#include "/utils/glueDocUtils.ftlx">
+<hdrRasVariation>
+	<virusDomain>${featureLoc.feature.name}</virusDomain>
+	<substitution>${hdr_ras.display_name}</substitution>
+	<#list hdr_ras.hdr_ras_drug as ras_drug>
+	<drug glueType="Object[]">
+		<name>${ras_drug.hdr_drug.id}</name>
+		<abbreviatedName>${ras_drug.hdr_drug.abbreviated_name}</abbreviatedName>
+	</drug>
+	</#list>
+</hdrRasVariation>

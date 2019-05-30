@@ -1,1 +1,3 @@
 create module --fileName modules/hdrReportingController.xml --loadResources
+create module --fileName modules/hdrRasVariationRenderer.xml --loadResources
+create module --fileName modules/hdrRasReportTransformer.xml --loadResources

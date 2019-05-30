@@ -8,5 +8,16 @@
 		</parameter>
 		<documentResultType/> 
 	</function>
+	<function>
+		<name>reportFastaAsHtml</name>
+		<parameter>
+			<name>fastaFilePath</name>
+			<pathCompleter/>
+		</parameter>
+		<parameter>
+			<name>htmlFilePath</name>
+			<pathCompleter/>
+		</parameter>
+	</function>
 </ecmaFunctionInvoker>
 	

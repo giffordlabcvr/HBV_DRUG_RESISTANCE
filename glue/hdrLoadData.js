@@ -18,6 +18,16 @@ var rasFileLines = rasFileString.split("\n");
 var rasIDset = {};
 var rasDrugSet = {};
 
+var codonLabelToReferenceAa = {};
+
+glue.inMode("reference/REF_MASTER_NC_003977/feature-location/RT", function() {
+	var aaRows = glue.tableToObjects(glue.command(["amino-acid"]));
+	_.each(aaRows, function(aaRowObj) {
+		codonLabelToReferenceAa[aaRowObj.codonLabel] = aaRowObj.aminoAcid;
+	});
+});
+
+
 _.each(rasFileLines, function(rasFileLine) {
 	var trimmedLine = rasFileLine.trim();
 	if(trimmedLine.length == 0) {
@@ -27,7 +37,7 @@ _.each(rasFileLines, function(rasFileLine) {
 	var virusDomain = columnVals[0].trim();
 	var codonLabel = columnVals[2].trim();
 	var column4 = columnVals[4].trim();
-	var residues = column4.trim().split("/");
+	var residues = column4.trim().replace(/\//g, "").split("");
 	var drug = columnVals[5].trim().toLowerCase();
 
 	
@@ -41,11 +51,12 @@ _.each(rasFileLines, function(rasFileLine) {
 					"-d", "HBV drug resistance polymorphism "+virusDomain+":"+codonLabel+residue, 
 					"-c", codonLabel, codonLabel]);
 				glue.inMode("variation/"+rasID, function() {
-					glue.command(["set", "metatag", "SIMPLE_AA_PATTERN", "residue"]);
+					glue.command(["set", "metatag", "SIMPLE_AA_PATTERN", residue]);
 				});
 			});
 			glue.command(["create", "custom-table-row", "hdr_ras", rasID]);
 			glue.inMode("custom-table-row/hdr_ras/"+rasID, function() {
+				glue.command(["set", "field", "display_name", codonLabelToReferenceAa[codonLabel]+codonLabel+residue]);
 				glue.command(["set", "link-target", "variation", 
 					"reference/REF_MASTER_NC_003977/feature-location/"+virusDomain+"/variation/"+rasID]);
 			});

@@ -1,0 +1,4 @@
+<freemarkerDocTransformer>
+	<templateFileName>hdrRasReportTransformer.ftlh</templateFileName>
+	<resourceFileName>hdrRasReportTransformer.css</resourceFileName>
+</freemarkerDocTransformer>

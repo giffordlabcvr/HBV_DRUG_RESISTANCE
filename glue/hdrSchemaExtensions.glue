@@ -8,6 +8,10 @@ schema-project hbv
   
   create custom-table hdr_ras
 
+  table hdr_ras
+    create field display_name VARCHAR 10
+    exit
+
   create link variation hdr_ras
 
   create custom-table hdr_ras_drug
