@@ -1,23 +1,37 @@
 schema-project hbv
 
   create custom-table hdr_drug
+  create custom-table hdr_ras
+  create custom-table hdr_ras_alignment
+  create custom-table hdr_ras_drug
+  create custom-table hdr_publication
+  create custom-table hdr_ras_publication
 
   table hdr_drug
     create field abbreviated_name VARCHAR 10
     exit
-  
-  create custom-table hdr_ras
-
+ 
   table hdr_ras
     create field display_name VARCHAR 10
     exit
 
+  table hdr_publication
+    create field title VARCHAR 500
+    create field authors_short VARCHAR
+    create field authors_full VARCHAR 1000
+    create field year INTEGER
+    create field journal VARCHAR
+    create field volume VARCHAR
+    create field issue VARCHAR
+    create field pages VARCHAR
+    create field url VARCHAR 500
+    exit
+
   create link variation hdr_ras
-
-  create custom-table hdr_ras_drug
-
-  create link hdr_ras hdr_ras_drug -m ONE_TO_MANY
-
-  create link hdr_ras_drug hdr_drug -m MANY_TO_ONE
+  create link hdr_ras hdr_drug
+  create link hdr_ras hdr_ras_alignment -m ONE_TO_MANY
+  create link hdr_ras_alignment alignment -m MANY_TO_ONE
+  create link hdr_ras hdr_ras_publication -m ONE_TO_MANY
+  create link hdr_ras_publication hdr_publication -m MANY_TO_ONE
   
   exit

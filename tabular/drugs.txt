@@ -1,5 +1,5 @@
 drug	abbreviatedName
-adefovir	ADF
+adefovir	ADV
 entecavir	ETV
 lamivudine	LAM
 telbivudine	LDT

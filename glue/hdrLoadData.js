@@ -1,3 +1,60 @@
+glue.command(["multi-unset", "link-target", "hdr_ras", "hdr_drug", "-a"]);
+glue.command(["multi-unset", "link-target", "hdr_ras_alignment", "alignment", "-a"]);
+glue.command(["multi-unset", "link-target", "hdr_ras_alignment", "hdr_ras", "-a"]);
+glue.command(["multi-unset", "link-target", "hdr_ras_publication", "hdr_publication", "-a"]);
+glue.command(["multi-unset", "link-target", "hdr_ras_publication", "hdr_ras", "-a"]);
+glue.command(["multi-unset", "link-target", "variation", "hdr_ras", "-a"]);
+
+glue.command(["multi-delete", "hdr_drug", "-a"]);
+glue.command(["multi-delete", "hdr_ras", "-a"]);
+glue.command(["multi-delete", "variation", "-w", "name like 'hdr_ras:%'"]);
+glue.command(["multi-delete", "hdr_publication", "-a"]);
+
+var pubObjs;
+
+glue.inMode("module/tabularUtilityTab", function() {
+	pubObjs = glue.tableToObjects(glue.command(["load-tabular", "tabular/hdr_publications.txt"]));
+});
+
+
+_.each(pubObjs, function(pubObj) {
+	glue.logInfo("pubObj", pubObj);
+	glue.command(["create", "custom-table-row", "hdr_publication", pubObj.id]);
+	glue.inMode("custom-table-row/hdr_publication/"+pubObj.id, function() {
+		glue.command(["set", "field", "title", pubObj.title]);
+		glue.command(["set", "field", "authors_short", pubObj.authors_short]);
+		glue.command(["set", "field", "authors_full", pubObj.authors_full]);
+		glue.command(["set", "field", "year", pubObj.year]);
+		glue.command(["set", "field", "journal", pubObj.journal]);
+		if(pubObj.volume != null) {
+			glue.command(["set", "field", "volume", pubObj.volume]);
+		}
+		if(pubObj.issue != null) {
+			glue.command(["set", "field", "issue", pubObj.issue]);
+		}
+		if(pubObj.pages != null) {
+			glue.command(["set", "field", "pages", pubObj.pages]);
+		}
+		if(pubObj.doi != null) {
+			glue.command(["set", "field", "url", pubObj.doi]);
+		} else if(pubObj.url != null) {
+			glue.command(["set", "field", "url", pubObj.url]);
+		}
+	});
+});
+
+// fill in a couple of missing URLs
+
+glue.inMode("custom-table-row/hdr_publication/27492206", function() {
+	glue.command(["set", "field", "url", "http://www.med.kobe-u.ac.jp/journal/contents/62/E1.pdf"]);
+});
+
+glue.inMode("custom-table-row/hdr_publication/26309637", function() {
+	glue.command(["set", "field", "url", "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4538069/"]);
+});
+
+
+
 var drugObjs;
 
 glue.inMode("module/tabularUtilityTab", function() {
@@ -11,68 +68,119 @@ _.each(drugObjs, function(drugObj) {
 	});
 });
 
-var rasFileString = glue.command(["file-util", "load-string", "tabular/mutations.txt"]).fileUtilLoadStringResult.loadedString;
+var drRowObjs;
 
-var rasFileLines = rasFileString.split("\n");
-
-var rasIDset = {};
-var rasDrugSet = {};
-
-var codonLabelToReferenceAa = {};
-
-glue.inMode("reference/REF_MASTER_NC_003977/feature-location/RT", function() {
-	var aaRows = glue.tableToObjects(glue.command(["amino-acid"]));
-	_.each(aaRows, function(aaRowObj) {
-		codonLabelToReferenceAa[aaRowObj.codonLabel] = aaRowObj.aminoAcid;
-	});
+glue.inMode("module/tabularUtilityTab", function() {
+	drRowObjs = glue.tableToObjects(glue.command(["load-tabular", "tabular/DrugResistanceAlessaReformatted.txt"]));
 });
 
+// this should be the row number in the DrugResistanceAlessaReformatted spreadsheet
+var rowIdx = 2;
 
-_.each(rasFileLines, function(rasFileLine) {
-	var trimmedLine = rasFileLine.trim();
-	if(trimmedLine.length == 0) {
-		return;
+_.each(drRowObjs, function(drRowObj) {
+	glue.logInfo("drRowObj", drRowObj);
+	
+	glue.command(["create", "custom-table-row", "hdr_ras", rowIdx]);
+	var drugId = glue.getTableColumn(glue.command(["list", "custom-table-row", "hdr_drug", "-w", "abbreviated_name = '"+drRowObj["Drug"]+"'"]), "id")[0];
+	glue.inMode("custom-table-row/hdr_ras/"+rowIdx, function() {
+		glue.command(["set", "link-target", "hdr_drug", "custom-table-row/hdr_drug/"+drugId]);
+	});
+	
+	var genotypesString = drRowObj["Genotypes"];
+	var genotypes = [];
+	if(genotypesString != null) {
+		genotypes = genotypesString.replace(/\s/g, "").split(/,/);
 	}
-	var columnVals = trimmedLine.split(/\s+/);
-	var virusDomain = columnVals[0].trim();
-	var codonLabel = columnVals[2].trim();
-	var column4 = columnVals[4].trim();
-	var residues = column4.trim().replace(/\//g, "").split("");
-	var drug = columnVals[5].trim().toLowerCase();
+	
+	_.each(genotypes, function(genotype) {
+		glue.command(["create", "custom-table-row", "hdr_ras_alignment", rowIdx+":"+genotype]);
+		glue.inMode("custom-table-row/hdr_ras_alignment/"+rowIdx+":"+genotype, function() {
+			glue.command(["set", "link-target", "alignment", "alignment/AL_"+genotype]);
+			glue.command(["set", "link-target", "hdr_ras", "custom-table-row/hdr_ras/"+rowIdx]);
+		});
+		
+	});
+
+	var publicationsString = drRowObj["Publications"];
+	var publications = [];
+	if(publicationsString != null) {
+		publications = publicationsString.replace(/\s/g, "").split(/,/);
+	}
+	
+	_.each(publications, function(publicationId) {
+		glue.command(["create", "custom-table-row", "hdr_ras_publication", rowIdx+":"+publicationId]);
+		glue.inMode("custom-table-row/hdr_ras_publication/"+rowIdx+":"+publicationId, function() {
+			glue.command(["set", "link-target", "hdr_publication", "custom-table-row/hdr_publication/"+publicationId]);
+			glue.command(["set", "link-target", "hdr_ras", "custom-table-row/hdr_ras/"+rowIdx]);
+		});
+		
+	});
 
 	
-	_.each(residues, function(residue) {
-		var rasID = "hdr_ras:"+virusDomain+":"+codonLabel+residue;
-		var rasDrugID = rasID+":"+drug;
-		if(rasIDset[rasID] == null) {
-			glue.inMode("reference/REF_MASTER_NC_003977/feature-location/"+virusDomain, function() {
-				glue.command(["create", "variation", rasID, 
-					"-t", "aminoAcidSimplePolymorphism", 
-					"-d", "HBV drug resistance polymorphism "+virusDomain+":"+codonLabel+residue, 
-					"-c", codonLabel, codonLabel]);
-				glue.inMode("variation/"+rasID, function() {
-					glue.command(["set", "metatag", "SIMPLE_AA_PATTERN", residue]);
+	
+	var mutationString = drRowObj["Mutation"].replace(/\s/g, "").replaceAll("rt", "");
+	var alternatives = mutationString.split(",");
+	var altIdx = 1;
+	_.each(alternatives, function(altMutation) {
+		var parts = altMutation.trim().split(/[\+±]/);
+		glue.logInfo("ID: "+rowIdx+"_"+altIdx+", parts:", parts);
+		var partIdx = 1;
+		var partVariationNames = [];
+		_.each(parts, function(part) {
+			var variationName;
+			if(parts.length > 1) {
+				variationName = "hdr_ras:"+rowIdx+"_"+altIdx+"_"+partIdx;
+				partVariationNames.push(variationName);
+			} else {
+				variationName = "hdr_ras:"+rowIdx+"_"+altIdx;
+			};
+			var matches = part.replaceAll("/", "").match(/([A-Z]?)([0-9]+)([A-Z]*)/);
+			var wildTypeAA = matches[1];
+			var codonLabel = matches[2];
+			var mutationAAs = matches[3]
+			var regexAaPattern;
+			if(mutationAAs.length == 0) {
+				if(wildTypeAA.length != 1) {
+					throw new Error("If mutation AAs not specified, wildtype must be single AA");
+				}
+				regexAaPattern = "[^"+wildTypeAA+"]";
+			} else {
+				regexAaPattern = "["+mutationAAs+"]";
+			}
+			
+			glue.logInfo("wildTypeAA: "+wildTypeAA+", codonLabel: "+codonLabel+", mutationAAs: "+mutationAAs);
+			glue.inMode("reference/REF_MASTER_NC_003977/feature-location/RT", function() {
+				glue.command(["create", "variation", variationName, 
+					"--vtype", "aminoAcidRegexPolymorphism", 
+					"--description", part,
+					"--labeledCodon", codonLabel, codonLabel]);
+				glue.inMode("variation/"+variationName, function() {
+					glue.command(["set", "metatag", "REGEX_AA_PATTERN", regexAaPattern]);
+					if(parts.length == 1) {
+						glue.command(["set", "link-target", "hdr_ras", "custom-table-row/hdr_ras/"+rowIdx]);
+					}
 				});
 			});
-			glue.command(["create", "custom-table-row", "hdr_ras", rasID]);
-			glue.inMode("custom-table-row/hdr_ras/"+rasID, function() {
-				glue.command(["set", "field", "display_name", codonLabelToReferenceAa[codonLabel]+codonLabel+residue]);
-				glue.command(["set", "link-target", "variation", 
-					"reference/REF_MASTER_NC_003977/feature-location/"+virusDomain+"/variation/"+rasID]);
+			partIdx++;
+		});
+		if(parts.length > 1) {
+			var conjunctionVariationName = "hdr_ras:"+rowIdx+"_"+altIdx;
+			glue.inMode("reference/REF_MASTER_NC_003977/feature-location/RT", function() {
+				glue.command(["create", "variation", conjunctionVariationName, 
+					"--vtype", "conjunction", 
+					"--description", mutationString.replace(/\s/g, "")]);
+				glue.inMode("variation/"+conjunctionVariationName, function() {
+					for(var i = 1; i <= partVariationNames.length; i++) {
+						glue.command(["set", "metatag", "CONJUNCT_NAME_"+i, partVariationNames[i-1]]);
+						glue.command(["set", "link-target", "hdr_ras", "custom-table-row/hdr_ras/"+rowIdx]);
+					}
+				});
 			});
-			rasIDset[rasID] = "yes";
 		}
-		if(rasDrugSet[rasDrugID] == null) {
-			glue.command(["create", "custom-table-row", "hdr_ras_drug", rasDrugID]);
-			glue.inMode("custom-table-row/hdr_ras_drug/"+rasDrugID, function() {
-				glue.command(["set", "link-target", "hdr_drug", 
-					"custom-table-row/hdr_drug/"+drug]);
-			});
-			glue.inMode("custom-table-row/hdr_ras/"+rasID, function() {
-				glue.command(["add", "link-target", "hdr_ras_drug", 
-					"custom-table-row/hdr_ras_drug/"+rasDrugID]);
-			});
-			rasDrugSet[rasDrugID] = "yes";
-		}
+		altIdx++;
 	});
+	
+	
+	rowIdx++;
 });
+

@@ -6,10 +6,18 @@ project hbv
 
 schema-project hbv
   delete link variation hdr_ras
-  delete link hdr_ras_drug hdr_drug
-  delete link hdr_ras hdr_ras_drug
+  delete link hdr_ras hdr_drug
+  delete link alignment hdr_ras_alignment
+  delete link hdr_ras hdr_ras_alignment
+  delete link hdr_ras hdr_ras_publication
+  delete link hdr_ras_publication hdr_publication
+  
 
   delete custom-table hdr_drug
   delete custom-table hdr_ras
+  delete custom-table hdr_ras_alignment
   delete custom-table hdr_ras_drug
+  delete custom-table hdr_publication
+  delete custom-table hdr_ras_publication
+  
   exit
