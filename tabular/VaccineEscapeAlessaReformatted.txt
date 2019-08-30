@@ -1,0 +1,119 @@
+Gene	Amino Acid Position	Native Amino Acid	Escape Mutation	Genotype 	References		
+S	3	N	S		28939157		
+PRE_S1	4	W	P/R		26755866		preS1
+S	4	T	K/A/V		28939157		
+S	5	A	T/S		28939157		
+S	5	T	A		28939157		
+S	10	G	Q/R/E		28939157		
+S	21	L	S		28939157		
+S	46	P	H		Perazzo_2015		
+S	47	T	K		28939157		
+S	48	C	G		26755866	major hydrophilic loop	
+S	49	L	H		Perazzo_2015		
+S	69	C	Y		Perazzo_2015		
+S	90	C	Y		Perazzo_2015		
+S	95	L	W		Perazzo_2015		
+S	98	L	V/P		28939157		
+S	98	L	V		28939157		
+S	100	Y	C		20382061		
+S	103	M	I		26755866, 29462187	outside a determinant region, major hydrophilic loop	
+S	107	C	R		Perazzo_2015		
+S	109	L	I		26755866, 20382061	major hydrophilic loop	
+S	109	L	R	F	29016603		
+S	110	I	V		20382061		
+S	110	L	L		Perazzo_2015		
+S	110	I	L	E, D	 29462187, 30080852	 HBIg, outside a determinant region	
+S	114	T	T		Perazzo_2015		
+S	115	T	I		 29462187	outside a determinant region	
+S	116	T	N		26755866, 30080852	VEM, a determinant region	
+S	117	S	I/N/S/T		20382061		
+S	118	T	A/P		 29462187	outside a determinant region	
+S	118	T	K		26755866	major hydrophilic loop	
+S	119	G	R		30080852	HBIg	
+S	119	G	E/R		 29462187	outside a determinant region	
+S	120	P	S/E/T/Q/A	D,E	30080852, 26755866, 29016603 ,Perazzo_2015, 20382061	VEM, a determinant region,major hydrophilic loop	
+S	121	I	L		Perazzo_2015		
+S	124	C	R/Y		Perazzo_2015		
+S	125	T	A		Perazzo_2015		
+S	126	T	S/I/N	E	Perazzo_2015,30080852		
+S	126	I	S/T		Perazzo_2015		
+S	126	I/T	A/F/N/S		30080852	VEM + HBIg	
+S	126	I	T		30080852	HBIg	
+S	126	T	I/N		29462187	a determinant region	
+S	126	I/T	A/N/I/S		26755866	a determinant region	
+S	126	T/A	S		28939157		
+S	126	I/S	N/V/T		28939157		
+S	126	I/S	T		28939157		
+S	126	T	A/S		29016603		
+S	127	P	T		20382061		
+S	129	N	R		Perazzo_2015		
+S	129	Q	H		Perazzo_2015		
+S	129	Q	R		30080852	VEM	
+S	129	Q	H/R		26755866	a determinant region	
+S	129	Q	H/R/L		28939157		
+S	130	G	E/R/N	F	29016603,20382061, Perazzo_2015		
+S	131	N	T		 29462187	a determinant region	
+S	131	T/N	I/A		28939157	a determinant region	
+S	131	T	P/I/N/A		28939157,30080852, Perazzo_2015	HBIg, a determinant region	
+S	132	S	A		20382061		
+S	133	M	I/K/L/T/V	E,D	20382061		
+S	133	M	K		Perazzo_2015		
+S	133	M	L		Perazzo_2015		
+S	133	M	T	D	30080852		
+S	133	M	L		30080852	VEM	
+S	133	M	T	E	30080852	HBIg	
+S	133	M	V		29462187	a determinant region	
+S	133	M	L		26755866	a determinant region	
+S	134	Y	N		20382061		
+S	134	F/P 	I/V		30080852	VEM	
+S	134	F	Y		29462187	a determinant region	
+S	134	Y	H		26755866	major hydrophilic loop	
+S	137	C	G/L		20382061		
+S	138	C	R		Perazzo_2015		
+S	139	N	R		Perazzo_2015		
+S	139	C	Y		Perazzo_2015		
+S	140	S	T		Perazzo_2015		
+S	141	K	E		26755866, 30080852	 VEM, a determinant region	
+S	142	P	S		26755866, 30080852	 VEM, a determinant region	
+S	143	S	L		Perazzo_2015		
+S	143	T	N		30080852	VEM	
+S	143	S	T		30080852	HBIg	
+S	143	T	L		29462187	a determinant region	
+S	143	S	L		26755866, 20382061	major hydrophilic loop	
+S	144	D	A/E/H/G/V	D, E	30080852, Perazzo_2015, 26755866, 29016603, 20382061	VEM + HBIg ,  a determinant region , major hydrophilic loop	
+S	145	S	A		Perazzo_2015		
+S	145	G	A/E/K/R	E,F	30080852,28939157,29016603,Perazzo_2015 , 20382061	VEM + HBIg	
+S	149	C	R		30080852	HBIg	
+S	152	I	F		Perazzo_2015		
+S	153	P	T		Perazzo_2015		
+S	158	L	F		Perazzo_2015		
+S	161	F	H/L		25483515		
+S	161	Y	F/S		29462187,Perazzo_2015	outside a determinant region	
+S	164	E	D/G		29462187, 25483515	outside a determinant region	
+S	168	A	T		Perazzo_2015		
+S	168	V	A		29462187	outside a determinant region	
+S	171	S	F		26755866	major hydrophilic loop	
+S	172	W	L		25483515		
+S	173	V	L		Perazzo_2015		
+S	173	L	F		25483515		
+S	175	L	F		25483515		
+S	175	L	S/F		28939157, 25483515,  26755866	major hydrophilic loop	
+S	176	C	R		Perazzo_2015		
+S	176	L	V		25483515		
+S	177	V	A		29462187		
+S	178	N	S		Perazzo_2015		
+S	184	V	A		29462187		
+S	185	G	E		26755866,Perazzo_2015	major hydrophilic loop	
+S	189	T	I		29462187		
+S	190	V	A		26755866	major hydrophilic loop	
+S	190	V	A		26755866	major hydrophilic loop	
+S	193	S	F/L		25483515		
+S	194	A	T		Perazzo_2015		
+S	194	V	S		25483515		
+S	195	I	M		25483515		
+S	196	W	S/L		25483515		
+S	202	G	R		Perazzo_2015		
+S	204	N	S		30080852	HBIg	
+S	209	L	V		Perazzo_2015		
+S	213	L	I/S		28939157		
+S	224	V	A/G		28939157		

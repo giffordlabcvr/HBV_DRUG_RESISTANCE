@@ -1,4 +1,3226 @@
 <Publications>
+<PubmedArticle>
+    <MedlineCitation Status="MEDLINE" Owner="NLM">
+        <PMID Version="1">30080852</PMID>
+        <DateCompleted>
+            <Year>2018</Year>
+            <Month>12</Month>
+            <Day>26</Day>
+        </DateCompleted>
+        <DateRevised>
+            <Year>2019</Year>
+            <Month>01</Month>
+            <Day>25</Day>
+        </DateRevised>
+        <Article PubModel="Electronic-eCollection">
+            <Journal>
+                <ISSN IssnType="Electronic">1935-2735</ISSN>
+                <JournalIssue CitedMedium="Internet">
+                    <Volume>12</Volume>
+                    <Issue>8</Issue>
+                    <PubDate>
+                        <Year>2018</Year>
+                        <Month>08</Month>
+                    </PubDate>
+                </JournalIssue>
+                <Title>PLoS neglected tropical diseases</Title>
+                <ISOAbbreviation>PLoS Negl Trop Dis</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>A systematic review of hepatitis B virus (HBV) drug and vaccine escape mutations in Africa: A call for urgent action.</ArticleTitle>
+            <Pagination>
+                <MedlinePgn>e0006629</MedlinePgn>
+            </Pagination>
+            <ELocationID EIdType="doi" ValidYN="Y">10.1371/journal.pntd.0006629</ELocationID>
+            <Abstract>
+                <AbstractText>International sustainable development goals for the elimination of viral hepatitis as a public health problem by 2030 highlight the pressing need to optimize strategies for prevention, diagnosis and treatment. Selected or transmitted resistance associated mutations (RAMs) and vaccine escape mutations (VEMs) in hepatitis B virus (HBV) may reduce the success of existing treatment and prevention strategies. These issues are particularly pertinent for many settings in Africa where there is high HBV prevalence and co-endemic HIV infection, but lack of robust epidemiological data and limited education, diagnostics and clinical care. The prevalence, distribution and impact of RAMs and VEMs in these populations are neglected in the current literature. We therefore set out to assimilate data for sub-Saharan Africa through a systematic literature review and analysis of published sequence data, and present these in an on-line database (https://livedataoxford.shinyapps.io/1510659619-3Xkoe2NKkKJ7Drg/). The majority of the data were from HIV/HBV coinfected cohorts. The commonest RAM was rtM204I/V, either alone or in combination with associated mutations, and identified in both reportedly treatment-naïve and treatment-experienced adults. We also identified the suite of mutations rtM204V/I + rtL180M + rtV173L, that has been associated with vaccine escape, in over 1/3 of cohorts. Although tenofovir has a high genetic barrier to resistance, it is of concern that emerging data suggest polymorphisms that may be associated with resistance, although the precise clinical impact of these is unknown. Overall, there is an urgent need for improved diagnostic screening, enhanced laboratory assessment of HBV before and during therapy, and sustained roll out of tenofovir in preference to lamivudine alone. Further data are needed in order to inform population and individual approaches to HBV diagnosis, monitoring and therapy in these highly vulnerable settings.</AbstractText>
+            </Abstract>
+            <AuthorList CompleteYN="Y">
+                <Author ValidYN="Y">
+                    <LastName>Mokaya</LastName>
+                    <ForeName>Jolynne</ForeName>
+                    <Initials>J</Initials>
+                    <Identifier Source="ORCID">0000-0001-8398-0689</Identifier>
+                    <AffiliationInfo>
+                        <Affiliation>Nuffield Department of Medicine, University of Oxford, Oxford, United Kingdom.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>McNaughton</LastName>
+                    <ForeName>Anna L</ForeName>
+                    <Initials>AL</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Nuffield Department of Medicine, University of Oxford, Oxford, United Kingdom.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Hadley</LastName>
+                    <ForeName>Martin J</ForeName>
+                    <Initials>MJ</Initials>
+                    <Identifier Source="ORCID">0000-0002-3039-6849</Identifier>
+                    <AffiliationInfo>
+                        <Affiliation>Oxford University Academic IT Department, Oxford, United Kingdom.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Beloukas</LastName>
+                    <ForeName>Apostolos</ForeName>
+                    <Initials>A</Initials>
+                    <Identifier Source="ORCID">0000-0001-5639-0528</Identifier>
+                    <AffiliationInfo>
+                        <Affiliation>Institute of Infection and Global Health, University of Liverpool, Liverpool, United Kingdom.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Geretti</LastName>
+                    <ForeName>Anna-Maria</ForeName>
+                    <Initials>AM</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Institute of Infection and Global Health, University of Liverpool, Liverpool, United Kingdom.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Goedhals</LastName>
+                    <ForeName>Dominique</ForeName>
+                    <Initials>D</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Division of Virology, University of the Free State/National Health Laboratory Service, Bloemfontein, Republic of South Africa.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Matthews</LastName>
+                    <ForeName>Philippa C</ForeName>
+                    <Initials>PC</Initials>
+                    <Identifier Source="ORCID">0000-0002-4036-4269</Identifier>
+                    <AffiliationInfo>
+                        <Affiliation>Nuffield Department of Medicine, University of Oxford, Oxford, United Kingdom.</Affiliation>
+                    </AffiliationInfo>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Microbiology and Infectious Diseases, Oxford University Hospitals NHS Foundation Trust, John Radcliffe Hospital, Headington, Oxford, United Kingdom.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+            </AuthorList>
+            <Language>eng</Language>
+            <GrantList CompleteYN="Y">
+                <Grant>
+                    <GrantID> 110110</GrantID>
+                    <Agency>Wellcome Trust</Agency>
+                    <Country>United Kingdom</Country>
+                </Grant>
+            </GrantList>
+            <PublicationTypeList>
+                <PublicationType UI="D016428">Journal Article</PublicationType>
+                <PublicationType UI="D013485">Research Support, Non-U.S. Gov't</PublicationType>
+                <PublicationType UI="D000078182">Systematic Review</PublicationType>
+            </PublicationTypeList>
+            <ArticleDate DateType="Electronic">
+                <Year>2018</Year>
+                <Month>08</Month>
+                <Day>06</Day>
+            </ArticleDate>
+        </Article>
+        <MedlineJournalInfo>
+            <Country>United States</Country>
+            <MedlineTA>PLoS Negl Trop Dis</MedlineTA>
+            <NlmUniqueID>101291488</NlmUniqueID>
+            <ISSNLinking>1935-2727</ISSNLinking>
+        </MedlineJournalInfo>
+        <ChemicalList>
+            <Chemical>
+                <RegistryNumber>0</RegistryNumber>
+                <NameOfSubstance UI="D000998">Antiviral Agents</NameOfSubstance>
+            </Chemical>
+            <Chemical>
+                <RegistryNumber>0</RegistryNumber>
+                <NameOfSubstance UI="D017325">Hepatitis B Vaccines</NameOfSubstance>
+            </Chemical>
+        </ChemicalList>
+        <CitationSubset>IM</CitationSubset>
+        <MeshHeadingList>
+            <MeshHeading>
+                <DescriptorName UI="D000349" MajorTopicYN="N" Type="Geographic">Africa</DescriptorName>
+                <QualifierName UI="Q000453" MajorTopicYN="N">epidemiology</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D000998" MajorTopicYN="N">Antiviral Agents</DescriptorName>
+                <QualifierName UI="Q000494" MajorTopicYN="Y">pharmacology</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D024882" MajorTopicYN="N">Drug Resistance, Viral</DescriptorName>
+                <QualifierName UI="Q000235" MajorTopicYN="Y">genetics</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D006509" MajorTopicYN="N">Hepatitis B</DescriptorName>
+                <QualifierName UI="Q000188" MajorTopicYN="Y">drug therapy</QualifierName>
+                <QualifierName UI="Q000453" MajorTopicYN="N">epidemiology</QualifierName>
+                <QualifierName UI="Q000517" MajorTopicYN="Y">prevention &amp; control</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D017325" MajorTopicYN="N">Hepatitis B Vaccines</DescriptorName>
+                <QualifierName UI="Q000276" MajorTopicYN="Y">immunology</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D006515" MajorTopicYN="N">Hepatitis B virus</DescriptorName>
+                <QualifierName UI="Q000235" MajorTopicYN="Y">genetics</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D006801" MajorTopicYN="N">Humans</DescriptorName>
+            </MeshHeading>
+        </MeshHeadingList>
+        <CoiStatement>The authors have declared that no competing interests exist.</CoiStatement>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="received">
+                <Year>2018</Year>
+                <Month>02</Month>
+                <Day>08</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="accepted">
+                <Year>2018</Year>
+                <Month>06</Month>
+                <Day>22</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="revised">
+                <Year>2018</Year>
+                <Month>08</Month>
+                <Day>16</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2018</Year>
+                <Month>8</Month>
+                <Day>7</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2018</Year>
+                <Month>12</Month>
+                <Day>27</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2018</Year>
+                <Month>8</Month>
+                <Day>7</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>epublish</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="pubmed">30080852</ArticleId>
+            <ArticleId IdType="doi">10.1371/journal.pntd.0006629</ArticleId>
+            <ArticleId IdType="pii">PNTD-D-18-00195</ArticleId>
+            <ArticleId IdType="pmc">PMC6095632</ArticleId>
+        </ArticleIdList>
+        <ReferenceList>
+            <Reference>
+                <Citation>Nucleic Acids Res. 2013 Jan;41(Database issue):D566-70</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">23125365</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>Cold Spring Harb Perspect Med. 2014 Nov 03;4(11):a021550</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">25368018</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>PLoS One. 2015 Feb 18;10(2):e0118062</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">25693196</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>J Clin Microbiol. 2011 Jan;49(1):298-306</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">21048009</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>J Glob Antimicrob Resist. 2017 Mar;8:74-81</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">28017671</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>J Med Virol. 2016 Sep;88(9):1560-6</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">26890489</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>Antivir Ther. 2015;20(6):643-54</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">25852125</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>J Med Virol. 2017 Feb;89(2):257-266</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">27458715</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>Springerplus. 2015 Feb 01;4:43</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">25674500</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>BMC Infect Dis. 2017 Nov 1;17(Suppl 1):693</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">29143616</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>PLoS One. 2016 Jan 14;11(1):e0143869</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">26764909</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>Curr Issues Mol Biol. 2014;16:69-78</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">24014801</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>AIDS Res Ther. 2017 Mar 8;14(1):11</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">28270215</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>Clin Infect Dis. 2014 Dec 1;59(11):1618-26</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">25100867</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>BMC Res Notes. 2011 Dec 23;4:561</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">22195774</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>J Med Virol. 2012 Oct;84(10):1553-7</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">22930502</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>Lancet Glob Health. 2017 Oct;5(10):e992-e1003</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">28911765</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>J Clin Microbiol. 2014 Feb;52(2):460-6</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">24478474</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>J Clin Microbiol. 2011 Dec;49(12):4138-41</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">21956978</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>J Hepatol. 2017 Mar;66(3):645-654</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">27771453</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>Infect Genet Evol. 2016 Sep;43:232-8</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">27245151</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>Antivir Ther. 2010;15(3 Pt B):505-15</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">20516572</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>Gastroenterology. 2009 Nov;137(5):1593-608.e1-2</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">19737565</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>Antivir Ther. 2010;15(3 Pt B):463-9</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">20516566</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>J Clin Virol. 2016 Dec;85:71-74</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">27838494</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>Vaccine. 2013 Nov 12;31(47):5579-84</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">23973500</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>Afr Health Sci. 2015 Jun;15(2):328-33</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">26124776</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>Virol J. 2016 Oct 21;13(1):178</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">27769271</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>PLoS Negl Trop Dis. 2017 Oct 5;11(10):e0005842</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">28981505</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>PLoS One. 2017 Dec 27;12(12):e0190149</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">29281718</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>World J Gastroenterol. 2016 Jan 7;22(1):145-54</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">26755866</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>Antivir Ther. 2017;22(1):13-20</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">27167598</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>PLoS One. 2014 Jun 10;9(6):e99971</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">24915064</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>J Med Virol. 2007 Nov;79(11):1650-4</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">17854040</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>AIDS Res Hum Retroviruses. 2017 Sep;33(9):966-969</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">28316253</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>J Pediatric Infect Dis Soc. 2014 Sep;3 Suppl 1:S7-S12</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">25232477</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>BMC Res Notes. 2012 Jan 20;5:50</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">22264264</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>Drug Resist Updat. 2001 Apr;4(2):118-28</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">11512520</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>Nat Rev Nephrol. 2012 Sep;8(9):533-41</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">22735764</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>J Clin Virol. 2014 Jul;60(3):313-6</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">24836314</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>PLoS One. 2017 Jul 31;12(7):e0181836</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">28759595</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>Antivir Ther. 2012;17(2):321-6</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">22290198</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>J Clin Microbiol. 2010 Sep;48(9):3223-30</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">20631103</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>Antivir Ther. 2005;10(6):727-34</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">16218172</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>J Med Virol. 2016 Jun;88(6):1035-43</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">26629781</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>Springerplus. 2016 Oct 28;5(1):1896</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">27843753</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>Liver Int. 2011 Jan;31 Suppl 1:111-6</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">21205147</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>PLoS One. 2015 Jul 28;10(7):e0134037</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">26218239</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>PLoS Negl Trop Dis. 2018 Aug 6;12(8):e0006629</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">30080852</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>PLoS One. 2013;8(3):e59346</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">23527168</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>Antimicrob Agents Chemother. 2013 Apr;57(4):1790-6</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">23380725</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>J Viral Hepat. 2011 Oct;18(10):e447-52</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">21914062</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>J Infect Dis. 2017 Nov 16;216(suppl_8):S792-S796</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">29156043</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>Int J Infect Dis. 2014 Dec;29:125-32</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">25449246</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>BMC Infect Dis. 2015 Aug 13;15:335</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">26268355</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>J Med Virol. 2009 Jun;81(6):996-1001</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">19382250</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>J Clin Virol. 2015 Feb;63:12-7</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">25600597</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>West Afr J Med. 2011 May-Jun;30(3):164-8</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">22120479</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>PLoS One. 2016 Mar 31;11(3):e0152043</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">27032097</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>PLoS One. 2018 Jan 9;13(1):e0190592</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">29315352</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>PLoS One. 2017 Jun 14;12(6):e0179025</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">28614401</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>J Hepatol. 2017 Aug;67(2):246-254</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">28392234</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>J Med Virol. 2009 Jul;81(7):1151-6</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">19475624</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>N Engl J Med. 2007 Jun 21;356(25):2614-21</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">17582071</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>J Infect Dis. 2016 Jan 1;213(1):39-48</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">26136470</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>J Antimicrob Chemother. 2012 Dec;67(12):2939-42</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">22915461</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>Hepatology. 1999 Nov;30(5):1312-7</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">10534356</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>Hepatol Res. 2007 Jul;37(s1):S9-S19</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">17627641</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>J Int AIDS Soc. 2017 Nov;20 Suppl 7:</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">29171192</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>Intervirology. 2014;57(3-4):218-24</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">25034491</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>J Virol. 2016 Jul 27;90(16):7171-7183</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">27252524</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>PLoS One. 2012;7(9):e46345</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">23029487</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>J Acquir Immune Defic Syndr. 2013 Oct 1;64(2):174-82</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">23892239</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>J Gastroenterol Hepatol. 2015 Feb;30(2):252-61</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">25318660</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>J Biomed Sci. 2001 May-Jun;8(3):237-47</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">11385295</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>Aliment Pharmacol Ther. 2016 Nov;44(10):1005-1017</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">27630001</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>J Med Virol. 2015 Mar;87(3):388-400</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">25164924</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>Trans R Soc Trop Med Hyg. 2015 Nov;109(11):723-9</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">26386408</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>J Infect Dis. 2018 Mar 28;217(8):1180-1183</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">29351639</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>J Antimicrob Chemother. 2011 Dec;66(12):2715-25</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">21965435</ArticleId>
+                </ArticleIdList>
+            </Reference>
+        </ReferenceList>
+    </PubmedData>
+</PubmedArticle>
+
+
+<PubmedArticle>
+    <MedlineCitation Status="MEDLINE" Owner="NLM">
+        <PMID Version="1">29462187</PMID>
+        <DateCompleted>
+            <Year>2018</Year>
+            <Month>05</Month>
+            <Day>24</Day>
+        </DateCompleted>
+        <DateRevised>
+            <Year>2018</Year>
+            <Month>11</Month>
+            <Day>13</Day>
+        </DateRevised>
+        <Article PubModel="Electronic-eCollection">
+            <Journal>
+                <ISSN IssnType="Electronic">1932-6203</ISSN>
+                <JournalIssue CitedMedium="Internet">
+                    <Volume>13</Volume>
+                    <Issue>2</Issue>
+                    <PubDate>
+                        <Year>2018</Year>
+                    </PubDate>
+                </JournalIssue>
+                <Title>PloS one</Title>
+                <ISOAbbreviation>PLoS ONE</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>Genotyping and sero-virological characterization of hepatitis B virus (HBV) in blood donors, Southern Ethiopia.</ArticleTitle>
+            <Pagination>
+                <MedlinePgn>e0193177</MedlinePgn>
+            </Pagination>
+            <ELocationID EIdType="doi" ValidYN="Y">10.1371/journal.pone.0193177</ELocationID>
+            <Abstract>
+                <AbstractText>Hepatitis B virus (HBV) prevalence is highest in Sub-Saharan Africa including Ethiopia. HBV genotypes have distinct geographic distributions and play a role in course of infection and treatment management. However, in Ethiopia there is paucity of information about distribution of HBV genotypes. This study was done to determine genotype, mutation and sero-virological profiles of HBV isolates in Southern Ethiopia. Cross-sectional, laboratory based study was conducted on 103HBsAg sero-positive samples from a total of 2,237 screened blood donors. HBV serological markers and biochemical assays were done. Serum viral load was measured using quantitative real-time PCR. Partial HBV S-gene was amplified with nested PCR and sequenced. Bioinformatics tools were utilized to determine genotypes, serotypes and mutations. Of 103 HBsAg reactive serum samples, 14.6% and 70.9% were sero-positive for HBeAg and HBeAb, respectively. Ninety-eight samples gave detectable viral load with a median of 3.46(2.62-4.82) log IU/ml. HBeAg sero-positive donors carried elevated levels of viral load. Eighty five isolates were successfully amplified, sequenced and genotyped into 58 (68.2%) genotype A (HBV/A) and 27 (31.8%) genotype D (HBV/D). HBV serotypes found were adw2 (74.1%), ayw2 (24.7%), and ayw3 (1.2%). In twenty-four (28.2%) samples mutations in the major hydrophilic region (MHR) were observed. Donors infected with HBV/A had higher viral load and more frequent MHR mutation than HBV/D infected donors. This study illustrated distribution of HBV genotype A and D among blood donors in southern Ethiopia. It also demonstrated occurrence HBV variants that may influence clinical aspects of HBV infection. The study contributes in narrowing the existing gap of HBV molecular study in Ethiopia.</AbstractText>
+            </Abstract>
+            <AuthorList CompleteYN="Y">
+                <Author ValidYN="Y">
+                    <LastName>Ambachew</LastName>
+                    <ForeName>Henock</ForeName>
+                    <Initials>H</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Clinical Laboratory, First Affiliated Hospital, Anhui Medical University, Hefei, Anhui, China.</Affiliation>
+                    </AffiliationInfo>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Clinical Laboratory Diagnostics, First Affiliated Hospital, Anhui Medical University, Hefei, Anhui, China.</Affiliation>
+                    </AffiliationInfo>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Medical Laboratory Sciences, College of Medicine and Health Sciences, Hawassa University, Hawassa, Ethiopia.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Zheng</LastName>
+                    <ForeName>Meijuan</ForeName>
+                    <Initials>M</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Clinical Laboratory, First Affiliated Hospital, Anhui Medical University, Hefei, Anhui, China.</Affiliation>
+                    </AffiliationInfo>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Clinical Laboratory Diagnostics, First Affiliated Hospital, Anhui Medical University, Hefei, Anhui, China.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Pappoe</LastName>
+                    <ForeName>Faustina</ForeName>
+                    <Initials>F</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Immunology and Parasitology, Provincial Laboratory of Microbiology and Parasitology and the Key Laboratory of Zoonoses Anhui, Anhui Medical University, Hefei, Anhui, China.</Affiliation>
+                    </AffiliationInfo>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Microbiology and Immunology, School of Medical Sciences, College of Health and Allied Sciences, University of Cape Coast, Cape Coast, Ghana.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Shen</LastName>
+                    <ForeName>Jilong</ForeName>
+                    <Initials>J</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Clinical Laboratory Diagnostics, First Affiliated Hospital, Anhui Medical University, Hefei, Anhui, China.</Affiliation>
+                    </AffiliationInfo>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Immunology and Parasitology, Provincial Laboratory of Microbiology and Parasitology and the Key Laboratory of Zoonoses Anhui, Anhui Medical University, Hefei, Anhui, China.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Xu</LastName>
+                    <ForeName>Yuanhong</ForeName>
+                    <Initials>Y</Initials>
+                    <Identifier Source="ORCID">0000-0002-1637-3800</Identifier>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Clinical Laboratory, First Affiliated Hospital, Anhui Medical University, Hefei, Anhui, China.</Affiliation>
+                    </AffiliationInfo>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Clinical Laboratory Diagnostics, First Affiliated Hospital, Anhui Medical University, Hefei, Anhui, China.</Affiliation>
+                    </AffiliationInfo>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Immunology and Parasitology, Provincial Laboratory of Microbiology and Parasitology and the Key Laboratory of Zoonoses Anhui, Anhui Medical University, Hefei, Anhui, China.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+            </AuthorList>
+            <Language>eng</Language>
+            <PublicationTypeList>
+                <PublicationType UI="D016428">Journal Article</PublicationType>
+                <PublicationType UI="D013485">Research Support, Non-U.S. Gov't</PublicationType>
+            </PublicationTypeList>
+            <ArticleDate DateType="Electronic">
+                <Year>2018</Year>
+                <Month>02</Month>
+                <Day>20</Day>
+            </ArticleDate>
+        </Article>
+        <MedlineJournalInfo>
+            <Country>United States</Country>
+            <MedlineTA>PLoS One</MedlineTA>
+            <NlmUniqueID>101285081</NlmUniqueID>
+            <ISSNLinking>1932-6203</ISSNLinking>
+        </MedlineJournalInfo>
+        <ChemicalList>
+            <Chemical>
+                <RegistryNumber>0</RegistryNumber>
+                <NameOfSubstance UI="D004279">DNA, Viral</NameOfSubstance>
+            </Chemical>
+        </ChemicalList>
+        <CitationSubset>IM</CitationSubset>
+        <MeshHeadingList>
+            <MeshHeading>
+                <DescriptorName UI="D000328" MajorTopicYN="N">Adult</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D001782" MajorTopicYN="Y">Blood Donors</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D003430" MajorTopicYN="N">Cross-Sectional Studies</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D004279" MajorTopicYN="N">DNA, Viral</DescriptorName>
+                <QualifierName UI="Q000235" MajorTopicYN="Y">genetics</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D005002" MajorTopicYN="N">Ethiopia</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D005260" MajorTopicYN="N">Female</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D016679" MajorTopicYN="Y">Genome, Viral</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D005838" MajorTopicYN="N">Genotype</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D006515" MajorTopicYN="N">Hepatitis B virus</DescriptorName>
+                <QualifierName UI="Q000235" MajorTopicYN="Y">genetics</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D006801" MajorTopicYN="N">Humans</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D008297" MajorTopicYN="N">Male</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D009154" MajorTopicYN="Y">Mutation</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D065288" MajorTopicYN="N">Serogroup</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D019562" MajorTopicYN="N">Viral Load</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D055815" MajorTopicYN="N">Young Adult</DescriptorName>
+            </MeshHeading>
+        </MeshHeadingList>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="received">
+                <Year>2017</Year>
+                <Month>10</Month>
+                <Day>24</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="accepted">
+                <Year>2018</Year>
+                <Month>02</Month>
+                <Day>06</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2018</Year>
+                <Month>2</Month>
+                <Day>21</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2018</Year>
+                <Month>2</Month>
+                <Day>21</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2018</Year>
+                <Month>5</Month>
+                <Day>25</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>epublish</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="pubmed">29462187</ArticleId>
+            <ArticleId IdType="doi">10.1371/journal.pone.0193177</ArticleId>
+            <ArticleId IdType="pii">PONE-D-17-37633</ArticleId>
+            <ArticleId IdType="pmc">PMC5819820</ArticleId>
+        </ArticleIdList>
+        <ReferenceList>
+            <Reference>
+                <Citation>PLoS One. 2012;7(10):e45750</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">23049685</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>Intervirology. 2013;56(5):278-83</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">23887183</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>Epidemiol Infect. 2003 Aug;131(1):757-70</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">12948377</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>Clin Microbiol Rev. 2007 Jul;20(3):426-39, table of contents</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">17630333</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>Lancet. 2016 Sep 10;388(10049):1081-1088</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">27394647</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>BMC Infect Dis. 2017 Jun 19;17 (1):438</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">28629395</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>Vaccine. 2005 Mar 31;23(19):2409-23</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">15752827</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>J Med Virol. 2012 Feb;84(2):198-206</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">22170538</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>World J Gastroenterol. 2005 Nov 7;11(41):6410-5</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">16425408</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>J Infect. 2007 Mar;54(3):291-7</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">16911832</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>Emerg Infect Dis. 2006 Feb;12(2):198-203</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">16494742</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>ILAR J. 2001;42(2):127-38</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">11406715</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>Ann Clin Lab Sci. 2004 Autumn;34(4):389-96</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">15648778</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>Braz J Infect Dis. 2015 Sep-Oct;19(5):525-8</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">25997779</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>Intervirology. 2004;47(6):289-309</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">15564741</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>N Engl J Med. 2004 Mar 11;350(11):1118-29</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">15014185</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>Intervirology. 2014;57(3-4):141-50</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">25034481</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>J Med Virol. 2006 Aug;78(8):1035-42</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">16789015</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>J Mol Evol. 2002 Jun;54(6):807-14</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">12029362</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>J Viral Hepat. 2006 Nov;13(11):715-24</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">17052270</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>Hepatol Res. 2009 Feb;39(2):157-63</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">19208036</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>World J Gastroenterol. 2009 Jan 28;15(4):423-30</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">19152446</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>Dig Dis. 2016;34(4):293-302</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">27170381</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>Antiviral Res. 2001 Nov;52(2):91-8</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">11672818</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>J Med Virol. 2016 Jun;88(6):1035-43</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">26629781</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>Infect Genet Evol. 2013 Oct;19:152-63</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">23871776</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>J Med Virol. 2008 Jan;80(1):27-46</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">18041043</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>Antivir Ther. 2017;22(2):97-111</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">27354181</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>BMC Infect Dis. 2016 Dec 19;16(1):761</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">27993129</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>Hepatol Res. 2010 Jan;40(1):14-30</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">20156297</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>Mol Biol Evol. 2016 Jul;33(7):1870-4</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">27004904</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>J Gen Virol. 2004 May;85(Pt 5):1211-20</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">15105537</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>Nucleic Acids Res. 2012 Jul;40(Web Server issue):W193-8</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">22600739</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>Int J Infect Dis. 2014 Dec;29:125-32</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">25449246</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>J Viral Hepat. 2010 Jun;17(6):444-52</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">19780948</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>Lancet. 2015 Oct 17;386(10003):1546-55</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">26231459</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>J Gen Virol. 2010 Feb;91(Pt 2):483-92</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">19812261</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>Intervirology. 2008;51(6):417-21</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">19258721</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>J Med Virol. 2003 Apr;69(4):459-65</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">12601751</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>Hepatol Res. 2007 Jul;37(s1):S9-S19</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">17627641</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>J Med Virol. 2006;78 Suppl 1:S36-42</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">16622876</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>J Infect Dis. 2004 Jul 15;190(2):400-8</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">15216479</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>J Med Virol. 2003 Aug;70(4):529-36</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">12794714</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>BMC Infect Dis. 2013 Jul 18;13:328</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">23865777</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>J Hepatol. 2007 Dec;47(6):760-7</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">17928090</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>Eur J Biochem. 2003 Jul;270(14):2929-36</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">12846825</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>J Clin Microbiol. 2002 Jan;40(1):22-5</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">11773087</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>Virus Genes. 2013 Dec;47(3):448-55</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">24006120</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>J Viral Hepat. 2005 Sep;12(5):456-64</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">16108759</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>Trans R Soc Trop Med Hyg. 2015 Nov;109(11):723-9</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">26386408</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>Nucleic Acids Res. 2004 Jul 1;32(Web Server issue):W654-9</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">15215470</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>Intervirology. 2007;50(1):45-51</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">17164557</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>BMC Public Health. 2016 Aug 11;16(1):769</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">27514515</ArticleId>
+                </ArticleIdList>
+            </Reference>
+        </ReferenceList>
+    </PubmedData>
+</PubmedArticle>
+
+
+<PubmedArticle>
+    <MedlineCitation Status="MEDLINE" Owner="NLM">
+        <PMID Version="1">29016603</PMID>
+        <DateCompleted>
+            <Year>2017</Year>
+            <Month>10</Month>
+            <Day>19</Day>
+        </DateCompleted>
+        <DateRevised>
+            <Year>2018</Year>
+            <Month>11</Month>
+            <Day>13</Day>
+        </DateRevised>
+        <Article PubModel="Electronic-eCollection">
+            <Journal>
+                <ISSN IssnType="Electronic">1932-6203</ISSN>
+                <JournalIssue CitedMedium="Internet">
+                    <Volume>12</Volume>
+                    <Issue>10</Issue>
+                    <PubDate>
+                        <Year>2017</Year>
+                    </PubDate>
+                </JournalIssue>
+                <Title>PloS one</Title>
+                <ISOAbbreviation>PLoS ONE</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>Characterization of hepatitis B virus in Amerindian children and mothers from Amazonas State, Colombia.</ArticleTitle>
+            <Pagination>
+                <MedlinePgn>e0181643</MedlinePgn>
+            </Pagination>
+            <ELocationID EIdType="doi" ValidYN="Y">10.1371/journal.pone.0181643</ELocationID>
+            <Abstract>
+                <AbstractText Label="BACKGROUND" NlmCategory="BACKGROUND">Hepatitis B Virus (HBV) infection is a worldwide public health problem. In the 1980's a highly effective and safe vaccine against HBV was developed, although breakthrough infection still occasionally occurs because of the emergence of escape mutants. The aim of this study was to identify HBV genotypes and escape mutants in children and their mothers in Amerindian communities of the Amazonas State, Southern Colombia.</AbstractText>
+                <AbstractText Label="METHODS" NlmCategory="METHODS">Blood specimens collected from children and mothers belonging to 37 Amerindian communities in Amazonas state, were screened for HBsAg and anti-HBc using ELISA. The partial region containing the S ORF was amplified by nested PCR, and amplicons were sequenced. The phylogenetic analysis was performed using the MEGA 5.05 software.</AbstractText>
+                <AbstractText Label="RESULTS" NlmCategory="RESULTS">Forty-six children (46/1275, 3.6%) and one hundred and seventy-seven mothers (177/572, 30.9%) were tested positive for the anti-HBc serological marker. Among them, 190 samples were tested for viral genome detection; 8.3% (2/31) serum samples obtained from children and 3.1% (5/159) from mothers were positive for the ORF S PCR. The predominant HBV genotype in the study population was F, subgenotype F1b; in addition, subgenotype F1a and genotype A were also characterized. Two HBV escape mutants were identified, G145R, reported worldwide, and W156*; this stop codon was identified in a child with occult HBV infection. Other mutations were found, L109R and G130E, located in critical positions of the HBsAg sequence.</AbstractText>
+                <AbstractText Label="CONCLUSIONS" NlmCategory="CONCLUSIONS">This study aimed to characterize the HBV genotype F, subgenotypes F1b and F1a, and genotype A in Amerindian communities and for the first time escape mutants in Colombia. Further investigations are necessary to elucidate the frequency and the epidemiological impact of the escape mutants in the country.</AbstractText>
+            </Abstract>
+            <AuthorList CompleteYN="Y">
+                <Author ValidYN="Y">
+                    <LastName>Jaramillo</LastName>
+                    <ForeName>Carlos Mario</ForeName>
+                    <Initials>CM</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Grupo de Gastrohepatologia, Facultad de Medicina, Universidad de Antioquia, UdeA, Medellin, Colombia.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>de La Hoz</LastName>
+                    <ForeName>Fernando</ForeName>
+                    <Initials>F</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Grupo de Epidemiologia y Evaluación en Salud Pública, Universidad Nacional, Bogota, Colombia.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Porras</LastName>
+                    <ForeName>Alexandra</ForeName>
+                    <Initials>A</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Grupo de Epidemiologia y Evaluación en Salud Pública, Universidad Nacional, Bogota, Colombia.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>di Filippo</LastName>
+                    <ForeName>Diana</ForeName>
+                    <Initials>D</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Grupo de Gastrohepatologia, Facultad de Medicina, Universidad de Antioquia, UdeA, Medellin, Colombia.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Choconta-Piraquive</LastName>
+                    <ForeName>Luz Angela</ForeName>
+                    <Initials>LA</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Grupo de Epidemiologia y Evaluación en Salud Pública, Universidad Nacional, Bogota, Colombia.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Payares</LastName>
+                    <ForeName>Edra</ForeName>
+                    <Initials>E</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Laboratorio Departamental de Salud Publica del Amazonas, Leticia, Colombia.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Montes</LastName>
+                    <ForeName>Neyla</ForeName>
+                    <Initials>N</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Coordinacion Salud Publica, Alcaldia de Puerto Nariño, Puerto Nariño, Colombia.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Navas</LastName>
+                    <ForeName>Maria-Cristina</ForeName>
+                    <Initials>MC</Initials>
+                    <Identifier Source="ORCID">http://orcid.org/0000-0003-2610-9306</Identifier>
+                    <AffiliationInfo>
+                        <Affiliation>Grupo de Gastrohepatologia, Facultad de Medicina, Universidad de Antioquia, UdeA, Medellin, Colombia.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+            </AuthorList>
+            <Language>eng</Language>
+            <PublicationTypeList>
+                <PublicationType UI="D016428">Journal Article</PublicationType>
+            </PublicationTypeList>
+            <ArticleDate DateType="Electronic">
+                <Year>2017</Year>
+                <Month>10</Month>
+                <Day>10</Day>
+            </ArticleDate>
+        </Article>
+        <MedlineJournalInfo>
+            <Country>United States</Country>
+            <MedlineTA>PLoS One</MedlineTA>
+            <NlmUniqueID>101285081</NlmUniqueID>
+            <ISSNLinking>1932-6203</ISSNLinking>
+        </MedlineJournalInfo>
+        <ChemicalList>
+            <Chemical>
+                <RegistryNumber>0</RegistryNumber>
+                <NameOfSubstance UI="D006514">Hepatitis B Surface Antigens</NameOfSubstance>
+            </Chemical>
+        </ChemicalList>
+        <CitationSubset>IM</CitationSubset>
+        <MeshHeadingList>
+            <MeshHeading>
+                <DescriptorName UI="D002648" MajorTopicYN="N">Child</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D005260" MajorTopicYN="N">Female</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D016679" MajorTopicYN="N">Genome, Viral</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D005838" MajorTopicYN="N">Genotype</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D006509" MajorTopicYN="N">Hepatitis B</DescriptorName>
+                <QualifierName UI="Q000097" MajorTopicYN="Y">blood</QualifierName>
+                <QualifierName UI="Q000453" MajorTopicYN="N">epidemiology</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D006514" MajorTopicYN="N">Hepatitis B Surface Antigens</DescriptorName>
+                <QualifierName UI="Q000097" MajorTopicYN="Y">blood</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D006515" MajorTopicYN="N">Hepatitis B virus</DescriptorName>
+                <QualifierName UI="Q000235" MajorTopicYN="Y">genetics</QualifierName>
+                <QualifierName UI="Q000472" MajorTopicYN="N">pathogenicity</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D006801" MajorTopicYN="N">Humans</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D007198" MajorTopicYN="N">Indians, North American</DescriptorName>
+                <QualifierName UI="Q000235" MajorTopicYN="N">genetics</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D007223" MajorTopicYN="N">Infant</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D009035" MajorTopicYN="N">Mothers</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D009154" MajorTopicYN="N">Mutation</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D010802" MajorTopicYN="Y">Phylogeny</DescriptorName>
+            </MeshHeading>
+        </MeshHeadingList>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="received">
+                <Year>2016</Year>
+                <Month>11</Month>
+                <Day>09</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="accepted">
+                <Year>2017</Year>
+                <Month>07</Month>
+                <Day>05</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2017</Year>
+                <Month>10</Month>
+                <Day>11</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2017</Year>
+                <Month>10</Month>
+                <Day>11</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2017</Year>
+                <Month>10</Month>
+                <Day>20</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>epublish</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="pubmed">29016603</ArticleId>
+            <ArticleId IdType="doi">10.1371/journal.pone.0181643</ArticleId>
+            <ArticleId IdType="pii">PONE-D-16-44596</ArticleId>
+            <ArticleId IdType="pmc">PMC5634536</ArticleId>
+        </ArticleIdList>
+        <ReferenceList>
+            <Reference>
+                <Citation>Hepat Res Treat. 2011;2011:363205</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">21941645</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>J Clin Virol. 2005 Dec;34 Suppl 2:S8-S13</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">16461245</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>J Med Virol. 2004 Mar;72(3):377-84</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">14748061</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>J Infect. 2011 Jul;63(1):66-75</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">21640384</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>Hepatology. 2009 May;49(5 Suppl):S13-21</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">19399811</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>Vaccine. 2010 Aug 2;28(34):5605-8</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">20598405</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>Infect Genet Evol. 2011 Jan;11(1):103-8</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">20951841</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>J Med Virol. 2008 Jan;80(1):20-6</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">18041024</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>ISRN Gastroenterol. 2012;2012:960413</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">23029621</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>J Med Virol. 2011 Sep;83(9):1530-6</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">21739442</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>Virol J. 2012 Oct 24;9:244</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">23092209</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>J Virol. 2012 Apr;86(8):4658-69</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">22301154</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>J Gen Virol. 2001 Feb;82(Pt 2):359-65</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">11161274</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>Int J Infect Dis. 2008 Mar;12(2):183-9</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">17913535</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>J Clin Microbiol. 2015 Oct;53(10):3165-75</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">26202119</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>Hepatology. 2008 Jul;48(1):88-98</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">18537180</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>J Virol. 2010 Jan;84(2):1026-33</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">19889778</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>J Med Virol. 2005 Jun;76(2):161-9</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">15834887</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>Infect Agents Dis. 1994 Aug;3(4):201-14</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">7827789</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>J Gen Virol. 2010 Feb;91(Pt 2):501-8</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">19846674</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>Virus Res. 2007 Aug;127(2):177-84</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">17280734</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>J Med Virol. 2006 Jan;78(1):24-36</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">16299725</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>World J Gastroenterol. 2011 Mar 28;17(12):1543-8</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">21472118</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>BMC Microbiol. 2007 Nov 23;7:103</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">18036224</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>J Med Virol. 2001 Jul;64(3):356-9</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">11424126</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>J Infect Dis. 2010 Apr 15;201(8):1192-200</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">20210630</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>J Viral Hepat. 2012 Oct;19(10):754-6</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">22967107</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>J Virol. 2009 Sep;83(18):9321-8</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">19570861</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>Antivir Ther. 2013;18(3 Pt B):459-65</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">23792558</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>Virol J. 2015 Oct 24;12:172</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">26497287</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>World J Gastroenterol. 2011 Mar 28;17(12):1563-8</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">21472122</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>Am J Trop Med Hyg. 2005 Oct;73(4):808-14</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">16222030</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>Antivir Ther. 2008;13(7):875-9</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">19043921</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>Trop Med Int Health. 2005 Apr;10(4):322-9</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">15807795</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>BMC Health Serv Res. 2016 Jul 21;16:293</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">27443313</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>Antiviral Res. 2003 Oct;60(2):75-8</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">14638401</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>J Viral Hepat. 1997;4 Suppl 1:11-20</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">9097273</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>Infect Genet Evol. 2011 Aug;11(6):1462-8</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">21645647</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>J Med Virol. 2012 Aug;84(8):1177-85</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">22711345</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>Gut. 2004 Oct;53(10):1499-503</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">15361503</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>J Clin Virol. 2006 May;36 Suppl 1:S45-50</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">16831693</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>BMC Infect Dis. 2014 Feb 21;14:94</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">24555665</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>Lancet. 1990 Aug 11;336(8711):325-9</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">1697396</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>Antiviral Res. 2010 Jul;87(1):74-7</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">20403388</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>Pathol Biol (Paris). 2010 Aug;58(4):288-95</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">20382485</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>J Clin Virol. 2005 Dec;34 Suppl 1:S125-9</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">16461211</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>Semin Immunopathol. 2013 Jan;35(1):39-52</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">22829332</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>Arch Virol. 2008;153(10):1885-92</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">18813870</ArticleId>
+                </ArticleIdList>
+            </Reference>
+        </ReferenceList>
+    </PubmedData>
+</PubmedArticle>
+
+
+<PubmedArticle>
+    <MedlineCitation Status="MEDLINE" Owner="NLM">
+        <PMID Version="1">28939157</PMID>
+        <DateCompleted>
+            <Year>2018</Year>
+            <Month>03</Month>
+            <Day>09</Day>
+        </DateCompleted>
+        <DateRevised>
+            <Year>2018</Year>
+            <Month>04</Month>
+            <Day>03</Day>
+        </DateRevised>
+        <Article PubModel="Print-Electronic">
+            <Journal>
+                <ISSN IssnType="Electronic">1873-2518</ISSN>
+                <JournalIssue CitedMedium="Internet">
+                    <Volume>35</Volume>
+                    <Issue>43</Issue>
+                    <PubDate>
+                        <Year>2017</Year>
+                        <Month>10</Month>
+                        <Day>13</Day>
+                    </PubDate>
+                </JournalIssue>
+                <Title>Vaccine</Title>
+                <ISOAbbreviation>Vaccine</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>Molecular evolution of hepatitis B vaccine escape variants in China, during 2000-2016.</ArticleTitle>
+            <Pagination>
+                <MedlinePgn>5808-5813</MedlinePgn>
+            </Pagination>
+            <ELocationID EIdType="pii" ValidYN="Y">S0264-410X(17)31251-3</ELocationID>
+            <ELocationID EIdType="doi" ValidYN="Y">10.1016/j.vaccine.2017.09.030</ELocationID>
+            <Abstract>
+                <AbstractText>Hepatitis B vaccine escape variants are the main threat to hepatitis B virus (HBV) infection in vaccination era worldwide. With 215 genotype B HBV and 313 genotype C HBV vaccine escape variants isolated from China during 2000-2016, we reported that genotype B HBV vaccine escape strains diverged in ∼1997 (95% HPD; 1987-2005), while genotype C HBV vaccine escape strains diverged in ∼1976 (95% HPD; 1955-2003). Additionally, the p-distance of genotype C HBV vaccine escape strains was 0.0291±0.0169, which was significantly higher than that in the genotype B HBV (t=131.02, p&lt;0.05). However, genotype B HBV vaccine escape strains evolved more rapidly than genotype C HBV (2.103×10<sup>-3</sup> vs 1.083×10<sup>-3</sup> substitutions/site/year). Bayesian skyline plot analysis showed that the populations of genotype C HBV vaccine escape strains fluctuated more than those in genotype B HBV. Four sites (A5T/S, L21S, T/A126S and T/N131I/A) and 13 sites (N3S, T5A, G10Q/R/E, L21S, T47K/A/V, L98V/P, I/S126N/V/T, Q129H/R/L, T131P/I/N/A, G145A/R, L175S/F, L213I/S, V224A/G) were found to be under positive selection in genotype B and C HBV vaccine escape strains, respectively. More importantly, N3S, L21S, T47K, L98V, I/S126T and L213I mutations were detected in 1 (2.5%), 1 (2.5%), 1 (2.5%), 3 (7.5%), 1 (2.5%), 1 (2.5%) genotype C HBV infected Chinese younger with neonatal HBV vaccination, respectively. Therefore, our results should be valuable in further understanding the molecular evolution of HBV and providing new ideas for the elimination of HBV infection.</AbstractText>
+                <CopyrightInformation>Copyright © 2017 Elsevier Ltd. All rights reserved.</CopyrightInformation>
+            </Abstract>
+            <AuthorList CompleteYN="Y">
+                <Author ValidYN="Y">
+                    <LastName>Wang</LastName>
+                    <ForeName>Jie</ForeName>
+                    <Initials>J</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Epidemiology and Statistics, School of Public Health, Jiangsu Key Laboratory and Translational Medicine for Geriatric Disease, Medical College of Soochow University, Suzhou, Jiangsu, China.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Qiu</LastName>
+                    <ForeName>Jing</ForeName>
+                    <Initials>J</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Epidemiology and Statistics, School of Public Health, Jiangsu Key Laboratory and Translational Medicine for Geriatric Disease, Medical College of Soochow University, Suzhou, Jiangsu, China.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Zhu</LastName>
+                    <ForeName>Yinwei</ForeName>
+                    <Initials>Y</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Epidemiology and Statistics, School of Public Health, Jiangsu Key Laboratory and Translational Medicine for Geriatric Disease, Medical College of Soochow University, Suzhou, Jiangsu, China.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Zhou</LastName>
+                    <ForeName>Hui</ForeName>
+                    <Initials>H</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Suzhou Industrial Park Centers for Disease Control and Prevention, Suzhou 215123, China.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Yu</LastName>
+                    <ForeName>Lugang</ForeName>
+                    <Initials>L</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Suzhou Industrial Park Centers for Disease Control and Prevention, Suzhou 215123, China.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Ding</LastName>
+                    <ForeName>Yi</ForeName>
+                    <Initials>Y</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Suzhou Industrial Park Centers for Disease Control and Prevention, Suzhou 215123, China.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Zhang</LastName>
+                    <ForeName>Lige</ForeName>
+                    <Initials>L</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Epidemiology and Statistics, School of Public Health, Jiangsu Key Laboratory and Translational Medicine for Geriatric Disease, Medical College of Soochow University, Suzhou, Jiangsu, China.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Guo</LastName>
+                    <ForeName>Zhirong</ForeName>
+                    <Initials>Z</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Epidemiology and Statistics, School of Public Health, Jiangsu Key Laboratory and Translational Medicine for Geriatric Disease, Medical College of Soochow University, Suzhou, Jiangsu, China.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Dong</LastName>
+                    <ForeName>Chen</ForeName>
+                    <Initials>C</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Epidemiology and Statistics, School of Public Health, Jiangsu Key Laboratory and Translational Medicine for Geriatric Disease, Medical College of Soochow University, Suzhou, Jiangsu, China. Electronic address: cdong@suda.edu.cn.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+            </AuthorList>
+            <Language>eng</Language>
+            <PublicationTypeList>
+                <PublicationType UI="D016428">Journal Article</PublicationType>
+                <PublicationType UI="D013485">Research Support, Non-U.S. Gov't</PublicationType>
+            </PublicationTypeList>
+            <ArticleDate DateType="Electronic">
+                <Year>2017</Year>
+                <Month>09</Month>
+                <Day>20</Day>
+            </ArticleDate>
+        </Article>
+        <MedlineJournalInfo>
+            <Country>Netherlands</Country>
+            <MedlineTA>Vaccine</MedlineTA>
+            <NlmUniqueID>8406899</NlmUniqueID>
+            <ISSNLinking>0264-410X</ISSNLinking>
+        </MedlineJournalInfo>
+        <ChemicalList>
+            <Chemical>
+                <RegistryNumber>0</RegistryNumber>
+                <NameOfSubstance UI="D004279">DNA, Viral</NameOfSubstance>
+            </Chemical>
+            <Chemical>
+                <RegistryNumber>0</RegistryNumber>
+                <NameOfSubstance UI="D006514">Hepatitis B Surface Antigens</NameOfSubstance>
+            </Chemical>
+            <Chemical>
+                <RegistryNumber>0</RegistryNumber>
+                <NameOfSubstance UI="D017325">Hepatitis B Vaccines</NameOfSubstance>
+            </Chemical>
+        </ChemicalList>
+        <CitationSubset>IM</CitationSubset>
+        <MeshHeadingList>
+            <MeshHeading>
+                <DescriptorName UI="D002681" MajorTopicYN="N">China</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D004279" MajorTopicYN="N">DNA, Viral</DescriptorName>
+                <QualifierName UI="Q000235" MajorTopicYN="N">genetics</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D019143" MajorTopicYN="N">Evolution, Molecular</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D005838" MajorTopicYN="N">Genotype</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D006509" MajorTopicYN="N">Hepatitis B</DescriptorName>
+                <QualifierName UI="Q000276" MajorTopicYN="N">immunology</QualifierName>
+                <QualifierName UI="Q000517" MajorTopicYN="N">prevention &amp; control</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D006514" MajorTopicYN="N">Hepatitis B Surface Antigens</DescriptorName>
+                <QualifierName UI="Q000235" MajorTopicYN="N">genetics</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D017325" MajorTopicYN="N">Hepatitis B Vaccines</DescriptorName>
+                <QualifierName UI="Q000276" MajorTopicYN="Y">immunology</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D006515" MajorTopicYN="N">Hepatitis B virus</DescriptorName>
+                <QualifierName UI="Q000235" MajorTopicYN="Y">genetics</QualifierName>
+                <QualifierName UI="Q000276" MajorTopicYN="Y">immunology</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D006801" MajorTopicYN="N">Humans</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D009154" MajorTopicYN="N">Mutation</DescriptorName>
+                <QualifierName UI="Q000235" MajorTopicYN="N">genetics</QualifierName>
+            </MeshHeading>
+        </MeshHeadingList>
+        <KeywordList Owner="NOTNLM">
+            <Keyword MajorTopicYN="Y">Hepatitis B virus</Keyword>
+            <Keyword MajorTopicYN="Y">Molecular evolution</Keyword>
+            <Keyword MajorTopicYN="Y">Mutations</Keyword>
+            <Keyword MajorTopicYN="Y">Vaccine escape</Keyword>
+        </KeywordList>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="received">
+                <Year>2017</Year>
+                <Month>06</Month>
+                <Day>24</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="revised">
+                <Year>2017</Year>
+                <Month>09</Month>
+                <Day>02</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="accepted">
+                <Year>2017</Year>
+                <Month>09</Month>
+                <Day>08</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2017</Year>
+                <Month>9</Month>
+                <Day>25</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2018</Year>
+                <Month>3</Month>
+                <Day>10</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2017</Year>
+                <Month>9</Month>
+                <Day>24</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>ppublish</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="pubmed">28939157</ArticleId>
+            <ArticleId IdType="pii">S0264-410X(17)31251-3</ArticleId>
+            <ArticleId IdType="doi">10.1016/j.vaccine.2017.09.030</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>
+
+
+<PubmedArticle>
+    <MedlineCitation Status="MEDLINE" Owner="NLM">
+        <PMID Version="1">26755866</PMID>
+        <DateCompleted>
+            <Year>2017</Year>
+            <Month>01</Month>
+            <Day>17</Day>
+        </DateCompleted>
+        <DateRevised>
+            <Year>2018</Year>
+            <Month>11</Month>
+            <Day>13</Day>
+        </DateRevised>
+        <Article PubModel="Print">
+            <Journal>
+                <ISSN IssnType="Electronic">2219-2840</ISSN>
+                <JournalIssue CitedMedium="Internet">
+                    <Volume>22</Volume>
+                    <Issue>1</Issue>
+                    <PubDate>
+                        <Year>2016</Year>
+                        <Month>Jan</Month>
+                        <Day>07</Day>
+                    </PubDate>
+                </JournalIssue>
+                <Title>World journal of gastroenterology</Title>
+                <ISOAbbreviation>World J. Gastroenterol.</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>Overview of hepatitis B virus mutations and their implications in the management of infection.</ArticleTitle>
+            <Pagination>
+                <MedlinePgn>145-54</MedlinePgn>
+            </Pagination>
+            <ELocationID EIdType="doi" ValidYN="Y">10.3748/wjg.v22.i1.145</ELocationID>
+            <Abstract>
+                <AbstractText>Hepatitis B virus (HBV) affects approximately two billion people worldwide and more than 240 million people in the world are currently chronic carrier that could develop serious complications in the future, like liver cirrhosis and hepatocellular carcinoma. Although an extended HBV immunization program is being carried out since the early '80s, representing effective preventive measure, leading to a dramatic reduction of HBV hepatitis incidence, globally HBV infection still represents a major public health problem. The HBV virus is a DNA virus belongs to the Hepadnaviridae family. The HBV-DNA is a circular, partial double strand genome. All coding information is on the minus DNA strand and it is organized into four open reading frames. Despite hepatitis B virus is a DNA virus, it has a high mutation rate due to its replicative strategy, that leads to the production of many non-identical variants at each cycle of replication. In fact, it contains a polymerase without the proofreading activity, and uses an RNA intermediate (pgRNA) during its replication, so error frequencies are comparable to those seen in retroviruses and other RNA viruses rather than in more stable DNA viruses. Due to the low fidelity of the polymerase, the high replication rate and the overlapping reading frames, mutations occur throughout the genome and they have been identified both in the structural and not structural gene. The arise of mutations being to develop of a whole of viral variants called &quot;quasi-species&quot; and the prevalent population, which favors virus replication, was selected by viral fitness, host's immune pressure and external pressure, i.e., vaccination or antiviral therapy. Naturally occurring mutations were found both in acute and chronic subjects. In the present review we examine and discuss the most recent available data about HBV genetic variability and its significance. </AbstractText>
+            </Abstract>
+            <AuthorList CompleteYN="Y">
+                <Author ValidYN="Y">
+                    <LastName>Caligiuri</LastName>
+                    <ForeName>Patrizia</ForeName>
+                    <Initials>P</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Patrizia Caligiuri, Giancarlo Icardi, Department of Health Sciences, University of Genoa, 16132 Genoa, Italy.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Cerruti</LastName>
+                    <ForeName>Rita</ForeName>
+                    <Initials>R</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Patrizia Caligiuri, Giancarlo Icardi, Department of Health Sciences, University of Genoa, 16132 Genoa, Italy.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Icardi</LastName>
+                    <ForeName>Giancarlo</ForeName>
+                    <Initials>G</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Patrizia Caligiuri, Giancarlo Icardi, Department of Health Sciences, University of Genoa, 16132 Genoa, Italy.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Bruzzone</LastName>
+                    <ForeName>Bianca</ForeName>
+                    <Initials>B</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Patrizia Caligiuri, Giancarlo Icardi, Department of Health Sciences, University of Genoa, 16132 Genoa, Italy.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+            </AuthorList>
+            <Language>eng</Language>
+            <PublicationTypeList>
+                <PublicationType UI="D016428">Journal Article</PublicationType>
+                <PublicationType UI="D016454">Review</PublicationType>
+            </PublicationTypeList>
+        </Article>
+        <MedlineJournalInfo>
+            <Country>United States</Country>
+            <MedlineTA>World J Gastroenterol</MedlineTA>
+            <NlmUniqueID>100883448</NlmUniqueID>
+            <ISSNLinking>1007-9327</ISSNLinking>
+        </MedlineJournalInfo>
+        <ChemicalList>
+            <Chemical>
+                <RegistryNumber>0</RegistryNumber>
+                <NameOfSubstance UI="D014764">Viral Proteins</NameOfSubstance>
+            </Chemical>
+        </ChemicalList>
+        <CitationSubset>IM</CitationSubset>
+        <MeshHeadingList>
+            <MeshHeading>
+                <DescriptorName UI="D024882" MajorTopicYN="N">Drug Resistance, Viral</DescriptorName>
+                <QualifierName UI="Q000235" MajorTopicYN="N">genetics</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D016679" MajorTopicYN="N">Genome, Viral</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D006509" MajorTopicYN="N">Hepatitis B</DescriptorName>
+                <QualifierName UI="Q000188" MajorTopicYN="N">drug therapy</QualifierName>
+                <QualifierName UI="Q000453" MajorTopicYN="N">epidemiology</QualifierName>
+                <QualifierName UI="Q000821" MajorTopicYN="Y">virology</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D006515" MajorTopicYN="N">Hepatitis B virus</DescriptorName>
+                <QualifierName UI="Q000187" MajorTopicYN="N">drug effects</QualifierName>
+                <QualifierName UI="Q000235" MajorTopicYN="Y">genetics</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D006801" MajorTopicYN="N">Humans</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D009154" MajorTopicYN="N">Mutation</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D014764" MajorTopicYN="N">Viral Proteins</DescriptorName>
+                <QualifierName UI="Q000235" MajorTopicYN="N">genetics</QualifierName>
+            </MeshHeading>
+        </MeshHeadingList>
+        <KeywordList Owner="NOTNLM">
+            <Keyword MajorTopicYN="N">Hepatitis B virus</Keyword>
+            <Keyword MajorTopicYN="N">Liver disease</Keyword>
+            <Keyword MajorTopicYN="N">Molecular biology tools</Keyword>
+            <Keyword MajorTopicYN="N">Mutations</Keyword>
+            <Keyword MajorTopicYN="N">Open reading frames</Keyword>
+        </KeywordList>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="received">
+                <Year>2015</Year>
+                <Month>05</Month>
+                <Day>29</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="revised">
+                <Year>2015</Year>
+                <Month>08</Month>
+                <Day>19</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="accepted">
+                <Year>2015</Year>
+                <Month>12</Month>
+                <Day>01</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2016</Year>
+                <Month>1</Month>
+                <Day>13</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2016</Year>
+                <Month>1</Month>
+                <Day>13</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2017</Year>
+                <Month>1</Month>
+                <Day>18</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>ppublish</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="pubmed">26755866</ArticleId>
+            <ArticleId IdType="doi">10.3748/wjg.v22.i1.145</ArticleId>
+            <ArticleId IdType="pmc">PMC4698481</ArticleId>
+        </ArticleIdList>
+        <ReferenceList>
+            <Reference>
+                <Citation>J Viral Hepat. 1999 Nov;6(6):415-27</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">10607259</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>J Gastroenterol. 2004 Jan;39(1):34-40</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">14767732</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>Hepat Mon. 2015 Feb 21;15(2):e23875</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">25788956</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>Hepat Mon. 2014 May 03;14(5):e15275</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">24829588</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>Mol Genet Med. 1992;2:67-104</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">1333869</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>Semin Liver Dis. 2006 May;26(2):87-96</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">16673287</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>J Infect Dis. 2007 Nov 15;196(10):1483-6</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">18008227</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>Hepatology. 2015 Mar;61(3):823-33</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">25418031</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>Gastroenterology. 2007 Feb;132(2):543-50</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">17258721</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>Cancer Sci. 2006 Aug;97(8):683-8</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">16863502</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>J Clin Microbiol. 2013 Dec;51(12):3928-36</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">24025913</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>Tumour Biol. 2014 Oct;35(10):10325-31</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">25034530</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>World J Gastroenterol. 2013 Jun 28;19(24):3861-5</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">23840126</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>Gastroenterology. 2009 Nov;137(5):1593-608.e1-2</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">19737565</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>Intervirology. 2004;47(6):289-309</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">15564741</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>Hepatology. 1999 Mar;29(3):946-53</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">10051502</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>World J Gastroenterol. 2014 Jun 28;20(24):7707-17</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">24976708</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>J Med Virol. 2015 Jun;87(6):993-8</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">25712861</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>J Clin Exp Hepatol. 2012 Dec;2(4):353-65</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">25755457</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>Clin Chim Acta. 2011 Jan 30;412(3-4):305-13</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">21056552</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>J Hepatol. 2012 Oct;57(4):720-9</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">22634131</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>World J Gastroenterol. 2009 Dec 14;15(46):5761-9</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">19998495</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>J Med Virol. 2006;78 Suppl 1:S52-5</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">16622878</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>J Viral Hepat. 2007 Nov;14 Suppl 1:11-5</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">17958637</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>Hepatology. 2008 Jul;48(1):88-98</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">18537180</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>J Natl Cancer Inst. 2008 Aug 20;100(16):1134-43</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">18695135</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>J Viral Hepat. 2013 Jan;20(1):42-9</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">23231083</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>Hepatology. 2013 Mar;57(3):934-43</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">23112104</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>Mol Immunol. 1986 May;23(5):511-23</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">3748012</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>Carcinogenesis. 2008 Jan;29(1):106-12</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">17999990</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>J Viral Hepat. 2007 Nov;14 Suppl 1:16-21</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">17958638</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>Hepatology. 2014 Feb;59(2):434-42</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">23939953</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>J Med Virol. 2012 Sep;84(9):1340-3</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">22825811</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>World J Gastroenterol. 2014 Jun 28;20(24):7653-64</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">24976703</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>World J Gastroenterol. 2014 May 14;20(18):5435-41</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">24833874</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>Virology. 1989 Jun;170(2):595-7</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">2728351</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>Am J Gastroenterol. 2008 Sep;103(9):2254-62</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">18844615</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>AIDS. 2009 Jan 14;23(2):268-72</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">19098499</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>BMC Cancer. 2011;11:398</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">21933446</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>Bioinformation. 2013;9(3):121-5</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">23423477</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>Antivir Ther. 2008;13(7):875-9</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">19043921</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>J Med Virol. 2008 Apr;80(4):598-602</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">18297712</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>World J Gastroenterol. 2007 Jan 7;13(1):82-90</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">17206757</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>Antiviral Res. 2012 Jan;93(1):86-93</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">22086128</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>J Hepatol. 2012 Jul;57(1):167-85</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">22436845</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>J Antimicrob Chemother. 2008 Apr;61(4):766-8</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">18218641</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>Hepatology. 2009 May;49(5):1503-14</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">19280622</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>World J Gastroenterol. 2014 May 21;20(19):5708-20</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">24914332</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>Gastroenterology. 2007 Nov;133(5):1466-74</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">17915220</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>World J Hepatol. 2015 Mar 27;7(3):289-303</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">25848459</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>Gastroenterology. 2003 Feb;124(2):327-34</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">12557138</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>Hepatobiliary Surg Nutr. 2015 Feb;4(1):1-10</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">25713800</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>Cancer Epidemiol Biomarkers Prev. 2009 Feb;18(2):590-4</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">19190166</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>Virus Res. 2012 Jan;163(1):197-201</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">21963662</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>Gut. 2008 Jan;57(1):91-7</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">17502344</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>J Biol Chem. 1993 Jan 15;268(2):1332-7</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">8419335</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>Lancet. 1988 Nov 12;2(8620):1132-3</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">2460710</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>Hepatology. 2009 Jun;49(6):1962-71</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">19475690</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>Dig Dis Sci. 2015 May;60(5):1315-24</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">25567052</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>J Virol. 2004 Dec;78(23):12725-34</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">15542625</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>Semin Liver Dis. 2006 May;26(2):162-70</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">16673294</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>J Clin Microbiol. 2010 Feb;48(2):357-62</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">19940057</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>Hepatology. 2012 Aug;56(2):422-33</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">22105832</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>World J Gastroenterol. 2014 Jun 28;20(24):7622-34</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">24976700</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>Gastroenterology. 2006 Apr;130(4):1153-68</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">16618410</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>PLoS One. 2015;10(3):e0120733</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">25822176</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>J Infect. 2013 Oct;67(4):303-12</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">23796863</ArticleId>
+                </ArticleIdList>
+            </Reference>
+        </ReferenceList>
+    </PubmedData>
+</PubmedArticle>
+
+
+<PubmedArticle>
+    <MedlineCitation Status="MEDLINE" Owner="NLM">
+        <PMID Version="1">25483515</PMID>
+        <DateCompleted>
+            <Year>2015</Year>
+            <Month>12</Month>
+            <Day>30</Day>
+        </DateCompleted>
+        <DateRevised>
+            <Year>2018</Year>
+            <Month>12</Month>
+            <Day>02</Day>
+        </DateRevised>
+        <Article PubModel="Print-Electronic">
+            <Journal>
+                <ISSN IssnType="Electronic">2164-554X</ISSN>
+                <JournalIssue CitedMedium="Internet">
+                    <Volume>11</Volume>
+                    <Issue>1</Issue>
+                    <PubDate>
+                        <Year>2015</Year>
+                    </PubDate>
+                </JournalIssue>
+                <Title>Human vaccines &amp; immunotherapeutics</Title>
+                <ISOAbbreviation>Hum Vaccin Immunother</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>Hepatitis B vaccination.</ArticleTitle>
+            <Pagination>
+                <MedlinePgn>53-7</MedlinePgn>
+            </Pagination>
+            <ELocationID EIdType="doi" ValidYN="Y">10.4161/hv.34306</ELocationID>
+            <Abstract>
+                <AbstractText>Hepatitis B virus is a worldwide leading cause of acute and chronic liver disease including cirrhosis and hepatocellular carcinoma. Effective vaccines have been available since the early '80s and vaccination has proved highly successful in reducing the disease burden, the development of the carrier state and the HB-related morbidity and mortality in the countries where vaccination has been implemented.   Neutralizing (protective) antibodies (anti-HBs) induced by vaccination are targeted largely towards the amino acid hydrophilic region, referred to as the common a determinant which is present on the outer protein coat or surface antigen (HBsAg), spanning amino acids 124-149. This provides protection against all HBV genotypes (from A to H) and is responsible for the broad immunity afforded by hepatitis B vaccination. Thus, alterations of residues within this region of the surface antigen may determine conformational changes that can allow replication of the mutated HBV in vaccinated people. An important mutation in the surface antigen region was identified in Italy some 25 years ago in infants born to HBsAg carrier mothers who developed breakthrough infections despite having received HBIG and vaccine at birth. This virus had a point mutation from guanosine to adenosine at nucleotide position 587, resulting in aa substitution from glycine (G) to arginine (R) at position 145 in the a determinant. Since the G145R substitution alters the projecting loop (aa 139-147) of the a determinant, the neutralizing antibodies induced by vaccination are no longer able to recognize the mutated epitope. Beside G145R, other S-gene mutations potentially able to evade neutralizing anti-HBs and infect vaccinated people have been described worldwide. In addition, the emergence of Pol mutants associated with resistance to treatment with nucleos(t)ide analogues can select viruses with crucial changes in the overlapping S-gene, potentially able to alter the S protein immunoreactivity. Thus such mutants have the potential to infect both naïve and immunized people, negatively affecting the efficacy of both the antiviral treatment and the vaccination programs. Despite concern, at present the overall impact of vaccine escapes mutants seems to be low and they do not pose a public health threat or a need to modify the established hepatitis B vaccination programs. The development of novel NAs with a high barrier to resistance is warranted. </AbstractText>
+            </Abstract>
+            <AuthorList CompleteYN="Y">
+                <Author ValidYN="Y">
+                    <LastName>Romanò</LastName>
+                    <ForeName>Luisa</ForeName>
+                    <Initials>L</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>a Dipartimento di Scienze Biomediche per la Salute; Università degli Studi di Milano; Milano, Italy.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Paladini</LastName>
+                    <ForeName>Sara</ForeName>
+                    <Initials>S</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Galli</LastName>
+                    <ForeName>Cristina</ForeName>
+                    <Initials>C</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Raimondo</LastName>
+                    <ForeName>Giovanni</ForeName>
+                    <Initials>G</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Pollicino</LastName>
+                    <ForeName>Teresa</ForeName>
+                    <Initials>T</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Zanetti</LastName>
+                    <ForeName>Alessandro R</ForeName>
+                    <Initials>AR</Initials>
+                </Author>
+            </AuthorList>
+            <Language>eng</Language>
+            <PublicationTypeList>
+                <PublicationType UI="D016428">Journal Article</PublicationType>
+                <PublicationType UI="D016454">Review</PublicationType>
+            </PublicationTypeList>
+            <ArticleDate DateType="Electronic">
+                <Year>2014</Year>
+                <Month>11</Month>
+                <Day>01</Day>
+            </ArticleDate>
+        </Article>
+        <MedlineJournalInfo>
+            <Country>United States</Country>
+            <MedlineTA>Hum Vaccin Immunother</MedlineTA>
+            <NlmUniqueID>101572652</NlmUniqueID>
+            <ISSNLinking>2164-5515</ISSNLinking>
+        </MedlineJournalInfo>
+        <ChemicalList>
+            <Chemical>
+                <RegistryNumber>0</RegistryNumber>
+                <NameOfSubstance UI="D057134">Antibodies, Neutralizing</NameOfSubstance>
+            </Chemical>
+            <Chemical>
+                <RegistryNumber>0</RegistryNumber>
+                <NameOfSubstance UI="D006510">Hepatitis B Antibodies</NameOfSubstance>
+            </Chemical>
+            <Chemical>
+                <RegistryNumber>0</RegistryNumber>
+                <NameOfSubstance UI="D006514">Hepatitis B Surface Antigens</NameOfSubstance>
+            </Chemical>
+            <Chemical>
+                <RegistryNumber>0</RegistryNumber>
+                <NameOfSubstance UI="D017325">Hepatitis B Vaccines</NameOfSubstance>
+            </Chemical>
+            <Chemical>
+                <RegistryNumber>0</RegistryNumber>
+                <NameOfSubstance UI="D050505">Mutant Proteins</NameOfSubstance>
+            </Chemical>
+        </ChemicalList>
+        <CitationSubset>IM</CitationSubset>
+        <MeshHeadingList>
+            <MeshHeading>
+                <DescriptorName UI="D057134" MajorTopicYN="N">Antibodies, Neutralizing</DescriptorName>
+                <QualifierName UI="Q000097" MajorTopicYN="N">blood</QualifierName>
+                <QualifierName UI="Q000276" MajorTopicYN="N">immunology</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D006509" MajorTopicYN="N">Hepatitis B</DescriptorName>
+                <QualifierName UI="Q000453" MajorTopicYN="Y">epidemiology</QualifierName>
+                <QualifierName UI="Q000517" MajorTopicYN="Y">prevention &amp; control</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D006510" MajorTopicYN="N">Hepatitis B Antibodies</DescriptorName>
+                <QualifierName UI="Q000097" MajorTopicYN="N">blood</QualifierName>
+                <QualifierName UI="Q000276" MajorTopicYN="N">immunology</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D006514" MajorTopicYN="N">Hepatitis B Surface Antigens</DescriptorName>
+                <QualifierName UI="Q000235" MajorTopicYN="N">genetics</QualifierName>
+                <QualifierName UI="Q000276" MajorTopicYN="Y">immunology</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D017325" MajorTopicYN="N">Hepatitis B Vaccines</DescriptorName>
+                <QualifierName UI="Q000008" MajorTopicYN="Y">administration &amp; dosage</QualifierName>
+                <QualifierName UI="Q000276" MajorTopicYN="Y">immunology</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D006515" MajorTopicYN="N">Hepatitis B virus</DescriptorName>
+                <QualifierName UI="Q000235" MajorTopicYN="N">genetics</QualifierName>
+                <QualifierName UI="Q000276" MajorTopicYN="Y">immunology</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D006801" MajorTopicYN="N">Humans</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D057131" MajorTopicYN="N">Immune Evasion</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D007558" MajorTopicYN="N">Italy</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D050505" MajorTopicYN="N">Mutant Proteins</DescriptorName>
+                <QualifierName UI="Q000235" MajorTopicYN="N">genetics</QualifierName>
+                <QualifierName UI="Q000276" MajorTopicYN="N">immunology</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D020125" MajorTopicYN="N">Mutation, Missense</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D014611" MajorTopicYN="N">Vaccination</DescriptorName>
+                <QualifierName UI="Q000379" MajorTopicYN="Y">methods</QualifierName>
+                <QualifierName UI="Q000706" MajorTopicYN="N">statistics &amp; numerical data</QualifierName>
+            </MeshHeading>
+        </MeshHeadingList>
+        <KeywordList Owner="NOTNLM">
+            <Keyword MajorTopicYN="N">HBV</Keyword>
+            <Keyword MajorTopicYN="N">HBV escape mutants</Keyword>
+            <Keyword MajorTopicYN="N">Hepatitis B</Keyword>
+            <Keyword MajorTopicYN="N">Hepatitis B vaccination</Keyword>
+            <Keyword MajorTopicYN="N">drug resistant mutants</Keyword>
+        </KeywordList>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2014</Year>
+                <Month>12</Month>
+                <Day>9</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2014</Year>
+                <Month>12</Month>
+                <Day>9</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2015</Year>
+                <Month>12</Month>
+                <Day>31</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>ppublish</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="pubmed">25483515</ArticleId>
+            <ArticleId IdType="doi">10.4161/hv.34306</ArticleId>
+            <ArticleId IdType="pmc">PMC4514213</ArticleId>
+        </ArticleIdList>
+        <ReferenceList>
+            <Reference>
+                <Citation>Intervirology. 2004;47(6):289-309</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">15564741</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>Lancet. 1990 Aug 11;336(8711):325-9</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">1697396</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>Cancer Lett. 2009 Dec 1;286(1):80-8</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">19683385</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>J Infect Dis. 2010 Apr 15;201(8):1192-200</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">20210630</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>Int J Infect Dis. 2010 Nov;14(11):e941-53</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">20674432</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>Lancet Infect Dis. 2012 Apr;12(4):341-53</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">22326017</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>J Hepatol. 2012 Jul;57(1):167-85</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">22436845</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>J Hepatol. 2012 Oct;57(4):730-5</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">22668640</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>J Virol. 2013 Nov;87(22):12196-206</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">24006443</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>J Virol. 2014 Apr;88(8):4605-6</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">24672049</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>J Med Virol. 1992 Feb;36(2):101-17</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">1583465</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>Hepatology. 1995 Mar;21(3):884-7</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">7875688</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>Lancet. 1995 Jun 3;345(8962):1406-7</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">7539089</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>J Infect Dis. 1997 Mar;175(3):511-23</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">9041321</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>Hepatology. 1997 Sep;26(3):786-91</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">9303514</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>Hepatology. 1998 Jan;27(1):254-63</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">9425945</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>Transfusion. 1998 Jan;38(1):56-9</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">9482395</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>J Med Virol. 1999 Sep;59(1):19-24</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">10440803</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>J Virol. 2014 Jun;88(11):6532</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">24803487</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>J Hepatol. 2014 Aug;61(2):408-17</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">24801416</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>Gut. 2005 Jul;54(7):1009-13</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">15951551</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>Vaccine. 2007 Apr 20;25(16):3133-6</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">17280750</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>N Engl J Med. 2008 Oct 2;359(14):1486-500</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">18832247</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>Vaccine. 2008 Nov 18;26(49):6266-73</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">18848855</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>Lancet. 2009 Feb 14;373(9663):582-92</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">19217993</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>J Natl Cancer Inst. 2009 Oct 7;101(19):1348-55</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">19759364</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>Gastroenterology. 2009 Nov;137(5):1593-608.e1-2</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">19737565</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>Microbiol Mol Biol Rev. 2000 Mar;64(1):51-68</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">10704474</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>Lancet. 2000 Apr 22;355(9213):1382-4</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">10791517</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>J Med Virol. 2002 Nov;68(3):319-27</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">12226817</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>Gut. 2004 Oct;53(10):1499-503</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">15361503</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>Proc Natl Acad Sci U S A. 1982 Jan;79(2):579-82</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">6176997</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>Lancet. 1988 Nov 12;2(8620):1132-3</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">2460710</ArticleId>
+                </ArticleIdList>
+            </Reference>
+            <Reference>
+                <Citation>J Viral Hepat. 2005 Mar;12(2):111-24</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">15720525</ArticleId>
+                </ArticleIdList>
+            </Reference>
+        </ReferenceList>
+    </PubmedData>
+</PubmedArticle>
+
+
+<PubmedArticle>
+    <MedlineCitation Status="MEDLINE" Owner="NLM">
+        <PMID Version="1">20382061</PMID>
+        <DateCompleted>
+            <Year>2011</Year>
+            <Month>02</Month>
+            <Day>18</Day>
+        </DateCompleted>
+        <DateRevised>
+            <Year>2010</Year>
+            <Month>10</Month>
+            <Day>11</Day>
+        </DateRevised>
+        <Article PubModel="Print-Electronic">
+            <Journal>
+                <ISSN IssnType="Electronic">1878-3511</ISSN>
+                <JournalIssue CitedMedium="Internet">
+                    <Volume>14 Suppl 3</Volume>
+                    <PubDate>
+                        <Year>2010</Year>
+                        <Month>Sep</Month>
+                    </PubDate>
+                </JournalIssue>
+                <Title>International journal of infectious diseases : IJID : official publication of the International Society for Infectious Diseases</Title>
+                <ISOAbbreviation>Int. J. Infect. Dis.</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>Monitoring of hepatitis B virus surface antigen escape mutations and concomitantly nucleos(t)ide analog resistance mutations in Turkish patients with chronic hepatitis B.</ArticleTitle>
+            <Pagination>
+                <MedlinePgn>e136-41</MedlinePgn>
+            </Pagination>
+            <ELocationID EIdType="doi" ValidYN="Y">10.1016/j.ijid.2009.11.039</ELocationID>
+            <Abstract>
+                <AbstractText Label="BACKGROUND" NlmCategory="BACKGROUND">The hepatitis B virus (HBV) polymerase gene completely overlaps with the envelope gene. In the present study we aimed to monitor the prevalence and pattern of the typical mutations for hepatitis B surface antigen (HBsAg) escape, and concomitantly nucleos(t)ide analog (NUC) resistance mutations, in Turkish patients undergoing different antiviral therapies and in treatment-naïve patients with chronic hepatitis B (CHB).</AbstractText>
+                <AbstractText Label="METHODS" NlmCategory="METHODS">The investigation was undertaken between March 2007 and August 2009 and involved a total of 142 patients under NUC therapy (88 males; mean age 42 years (range 13-68); hepatitis B e antigen (HBeAg) negativity in 94 patients; HBV DNA median log 4.3 log(10) IU/ml (range 2.0-&gt;6.0); alanine aminotransferase (ALT) median level 76.1 IU/ml (range 12-1082)) and 185 treatment-naïve CHB patients (120 males; mean age 39 years (range 1-76 years); HBeAg negativity in 132 patients; HBV DNA median log 3.5 log(10) IU/ml (range 2.0-6.0); ALT median level 60.7 IU/l (range 8-874)).</AbstractText>
+                <AbstractText Label="RESULTS" NlmCategory="RESULTS">The overall prevalence of typical HBsAg escape mutations found in the CHB patients was 8.3% (27/327). In the NUC therapy group the prevalence was 8.5% (12/142), with the following patterns: sY100C+sI110V, sL109I, sP120T, sP127T, sG130R+sG145X, sS132A+sY134N, sY134N+sG145R, sC137G, sD144E, sG145R. In the treatment-naïve group the prevalence was 8.1% (15/185), with the following patterns: sL109I, sI110V, sS117INST, sP120T, sP127T, sM133I, sC137L+sG145R, sS143L. However, NUC resistance mutations were found in 7.7% (11/142) of the patients on NUC therapy and 3.8% (7/185) of the treatment-naïve group patients. Interestingly, the treatment-naïve patients had preexisting drug resistance mutations related to lamivudine (rtL180M+rtM204I), adefovir (rtA181V, rtQ215S, rtI233V), entecavir (intermediate susceptibility with rtL180M+rtM204IHBV variant), telbivudine (rtL180M+rtM204I), and tenofovir (rtA194T).</AbstractText>
+                <AbstractText Label="CONCLUSIONS" NlmCategory="CONCLUSIONS">The findings of this study show preexisting typical HBsAg escape and NUC resistance mutations are possible. The genetic arrangement of the HBV genome with polymerase and surface genes overlapping has substantial public health and diagnostic implications and relevance.</AbstractText>
+                <CopyrightInformation>Copyright © 2010 International Society for Infectious Diseases. Published by Elsevier Ltd. All rights reserved.</CopyrightInformation>
+            </Abstract>
+            <AuthorList CompleteYN="Y">
+                <Author ValidYN="Y">
+                    <LastName>Sayan</LastName>
+                    <ForeName>M</ForeName>
+                    <Initials>M</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Clinical Laboratory, PCR Unit, Faculty of Medicine, University of Kocaeli, İzmit-Kocaeli, Turkey. sayanmurat@hotmail.com</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Sentürk</LastName>
+                    <ForeName>O</ForeName>
+                    <Initials>O</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Akhan</LastName>
+                    <ForeName>S Ç</ForeName>
+                    <Initials>SÇ</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Hülagü</LastName>
+                    <ForeName>S</ForeName>
+                    <Initials>S</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Cekmen</LastName>
+                    <ForeName>M B</ForeName>
+                    <Initials>MB</Initials>
+                </Author>
+            </AuthorList>
+            <Language>eng</Language>
+            <PublicationTypeList>
+                <PublicationType UI="D016428">Journal Article</PublicationType>
+            </PublicationTypeList>
+            <ArticleDate DateType="Electronic">
+                <Year>2010</Year>
+                <Month>04</Month>
+                <Day>09</Day>
+            </ArticleDate>
+        </Article>
+        <MedlineJournalInfo>
+            <Country>Canada</Country>
+            <MedlineTA>Int J Infect Dis</MedlineTA>
+            <NlmUniqueID>9610933</NlmUniqueID>
+            <ISSNLinking>1201-9712</ISSNLinking>
+        </MedlineJournalInfo>
+        <ChemicalList>
+            <Chemical>
+                <RegistryNumber>0</RegistryNumber>
+                <NameOfSubstance UI="D004279">DNA, Viral</NameOfSubstance>
+            </Chemical>
+            <Chemical>
+                <RegistryNumber>0</RegistryNumber>
+                <NameOfSubstance UI="D015684">Gene Products, pol</NameOfSubstance>
+            </Chemical>
+            <Chemical>
+                <RegistryNumber>0</RegistryNumber>
+                <NameOfSubstance UI="D006514">Hepatitis B Surface Antigens</NameOfSubstance>
+            </Chemical>
+            <Chemical>
+                <RegistryNumber>0</RegistryNumber>
+                <NameOfSubstance UI="D009705">Nucleosides</NameOfSubstance>
+            </Chemical>
+            <Chemical>
+                <RegistryNumber>0</RegistryNumber>
+                <NameOfSubstance UI="D009711">Nucleotides</NameOfSubstance>
+            </Chemical>
+            <Chemical>
+                <RegistryNumber>0</RegistryNumber>
+                <NameOfSubstance UI="C066027">P protein, Hepatitis B virus</NameOfSubstance>
+            </Chemical>
+        </ChemicalList>
+        <CitationSubset>IM</CitationSubset>
+        <MeshHeadingList>
+            <MeshHeading>
+                <DescriptorName UI="D000293" MajorTopicYN="N">Adolescent</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D000328" MajorTopicYN="N">Adult</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D000368" MajorTopicYN="N">Aged</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D001483" MajorTopicYN="N">Base Sequence</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D002648" MajorTopicYN="N">Child</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D002675" MajorTopicYN="N">Child, Preschool</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D004279" MajorTopicYN="N">DNA, Viral</DescriptorName>
+                <QualifierName UI="Q000235" MajorTopicYN="N">genetics</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D024882" MajorTopicYN="N">Drug Resistance, Viral</DescriptorName>
+                <QualifierName UI="Q000235" MajorTopicYN="N">genetics</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D005260" MajorTopicYN="N">Female</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D005787" MajorTopicYN="N">Gene Frequency</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D015684" MajorTopicYN="N">Gene Products, pol</DescriptorName>
+                <QualifierName UI="Q000235" MajorTopicYN="N">genetics</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D005814" MajorTopicYN="N">Genes, Viral</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D006514" MajorTopicYN="N">Hepatitis B Surface Antigens</DescriptorName>
+                <QualifierName UI="Q000235" MajorTopicYN="Y">genetics</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D006515" MajorTopicYN="N">Hepatitis B virus</DescriptorName>
+                <QualifierName UI="Q000187" MajorTopicYN="Y">drug effects</QualifierName>
+                <QualifierName UI="Q000235" MajorTopicYN="Y">genetics</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D019694" MajorTopicYN="N">Hepatitis B, Chronic</DescriptorName>
+                <QualifierName UI="Q000188" MajorTopicYN="Y">drug therapy</QualifierName>
+                <QualifierName UI="Q000821" MajorTopicYN="Y">virology</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D006801" MajorTopicYN="N">Humans</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D007223" MajorTopicYN="N">Infant</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D008297" MajorTopicYN="N">Male</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D008875" MajorTopicYN="N">Middle Aged</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D009154" MajorTopicYN="Y">Mutation</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D009705" MajorTopicYN="N">Nucleosides</DescriptorName>
+                <QualifierName UI="Q000494" MajorTopicYN="N">pharmacology</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D009711" MajorTopicYN="N">Nucleotides</DescriptorName>
+                <QualifierName UI="Q000494" MajorTopicYN="N">pharmacology</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D014421" MajorTopicYN="N" Type="Geographic">Turkey</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D055815" MajorTopicYN="N">Young Adult</DescriptorName>
+            </MeshHeading>
+        </MeshHeadingList>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="received">
+                <Year>2009</Year>
+                <Month>08</Month>
+                <Day>18</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="revised">
+                <Year>2009</Year>
+                <Month>10</Month>
+                <Day>30</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="accepted">
+                <Year>2009</Year>
+                <Month>11</Month>
+                <Day>25</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2010</Year>
+                <Month>4</Month>
+                <Day>13</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2010</Year>
+                <Month>4</Month>
+                <Day>13</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2011</Year>
+                <Month>2</Month>
+                <Day>22</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>ppublish</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="pubmed">20382061</ArticleId>
+            <ArticleId IdType="pii">S1201-9712(10)02311-8</ArticleId>
+            <ArticleId IdType="doi">10.1016/j.ijid.2009.11.039</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>
 
 <PubmedArticle>
     <MedlineCitation Status="MEDLINE" Owner="NLM">

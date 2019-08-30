@@ -6,12 +6,19 @@ schema-project hbv
   create custom-table hdr_ras_drug
   create custom-table hdr_publication
   create custom-table hdr_ras_publication
+  create custom-table hdr_vem
+  create custom-table hdr_vem_alignment
+  create custom-table hdr_vem_publication
 
   table hdr_drug
     create field abbreviated_name VARCHAR 10
     exit
  
   table hdr_ras
+    create field display_name VARCHAR 10
+    exit
+
+  table hdr_vem
     create field display_name VARCHAR 10
     exit
 
@@ -28,10 +35,17 @@ schema-project hbv
     exit
 
   create link variation hdr_ras
+  create link variation hdr_vem
   create link hdr_ras hdr_drug
   create link hdr_ras hdr_ras_alignment -m ONE_TO_MANY
   create link hdr_ras_alignment alignment -m MANY_TO_ONE
   create link hdr_ras hdr_ras_publication -m ONE_TO_MANY
   create link hdr_ras_publication hdr_publication -m MANY_TO_ONE
+  create link hdr_vem hdr_vem_alignment -m ONE_TO_MANY
+  create link hdr_vem_alignment alignment -m MANY_TO_ONE
+  create link hdr_vem hdr_vem_publication -m ONE_TO_MANY
+  create link hdr_vem_publication hdr_publication -m MANY_TO_ONE
+ 
+ 
   
   exit
