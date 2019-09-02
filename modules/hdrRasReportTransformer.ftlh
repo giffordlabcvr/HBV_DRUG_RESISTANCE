@@ -55,17 +55,22 @@ ${getResourceAsString('hdrRasReportTransformer.css')?no_esc}
 </p>
 
 <p>
-<#if sequenceResult.detectedSubstitutions?size gt 0>
+<h4>Antiviral drug resistance</h4>
+<#if sequenceResult.antiviralResistance?size gt 0>
 <table>
 <tr class="tableHeader">
-  <td><b>Resistant substitution</b></td>
+  <td><b>Virus protein</b></td>
+  <td><b>Resistant pattern</b></td>
+  <td><b>Detected pattern</b></td>
   <td><b>Resisted drug</b></td>
   <td><b>Genotypes</b></td>
   <td><b>References</b></td>
 </tr>
-<#list sequenceResult.detectedSubstitutions as substitution>
+<#list sequenceResult.antiviralResistance as substitution>
 <tr>
-<td>${substitution.virusDomain?lower_case}${substitution.description}</td>
+<td>${substitution.virusDomainDisplayName}</td>
+<td>${substitution.description}</td>
+<td>${substitution.detectedPattern}</td>
 <td>
 ${substitution.drug.name} (${substitution.drug.abbreviatedName})
 </td>
@@ -94,6 +99,50 @@ ${substitution.drug.name} (${substitution.drug.abbreviatedName})
 No resistant substitutions found
 </#if>
 </p>
+
+
+<p>
+<h4>Vaccine escape</h4>
+<#if sequenceResult.vaccineEscape?size gt 0>
+<table>
+<tr class="tableHeader">
+  <td><b>Virus protein</b></td>
+  <td><b>Escape pattern</b></td>
+  <td><b>Detected pattern</b></td>
+  <td><b>Genotypes</b></td>
+  <td><b>References</b></td>
+</tr>
+<#list sequenceResult.vaccineEscape as substitution>
+<tr>
+<td>${substitution.virusDomainDisplayName}</td>
+<td>${substitution.description}</td>
+<td>${substitution.detectedPattern}</td>
+<td>
+<#list substitution.clade as clade>
+<#if clade.name = 'AL_MASTER'>All genotypes<#else>${clade.displayName?replace('Genotype ', '')}</#if><#if !clade?is_last>,</#if>
+</#list>
+</td>
+<td>
+<#list substitution.publication as publication>
+<#if pubIdToIdx[publication.id]??>
+<#assign pubIndex = pubIdToIdx[publication.id]>
+<#else>
+<#assign pubIndex = nextPubIdx>
+<#assign pubIdToIdx = pubIdToIdx+{publication.id: pubIndex}>
+<#assign pubIdToPubHash = pubIdToPubHash+{publication.id: publication}>
+<#assign nextPubIdx = nextPubIdx+1>
+</#if>
+<a target="_blank" href="${publication.url}">${publication.authorsShort} ${publication.year}</a> [${pubIndex}]<#if !publication?is_last>,</#if>
+</#list>
+</td>
+</tr>
+</#list>
+</table>
+<#else>
+No vaccine escape mutations found
+</#if>
+</p>
+
 
 </#list>
 

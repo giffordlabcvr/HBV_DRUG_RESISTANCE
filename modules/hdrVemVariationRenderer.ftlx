@@ -1,0 +1,27 @@
+<#include "/utils/glueDocUtils.ftlx">
+<hdrVemVariation>
+	<virusDomain>${featureLoc.feature.name}</virusDomain>
+	<virusDomainDisplayName>${featureLoc.feature.displayName}</virusDomainDisplayName>
+	<description>${description}</description>
+	<#list hdr_vem.hdr_vem_alignment as vem_alignment>
+	<clade glueType="Object[]">
+		<name>${vem_alignment.alignment.name}</name>
+		<displayName>${vem_alignment.alignment.displayName}</displayName>
+	</clade>
+	</#list>
+	<#list hdr_vem.hdr_vem_publication as vem_publication>
+	<publication glueType="Object[]">
+		<id>${vem_publication.hdr_publication.id}</id>
+		<title>${vem_publication.hdr_publication.title}</title>
+		<authorsShort>${vem_publication.hdr_publication.authors_short}</authorsShort>
+		<authorsFull>${vem_publication.hdr_publication.authors_full}</authorsFull>
+		<year>${vem_publication.hdr_publication.year?c}</year>
+		<journal>${vem_publication.hdr_publication.journal}</journal>
+		<volume>${vem_publication.hdr_publication.volume}</volume>
+		<@elem tag="issue" expr="context.issue" context=vem_publication.hdr_publication/>
+		<@elem tag="pages" expr="context.pages" context=vem_publication.hdr_publication/>
+		<url>${vem_publication.hdr_publication.url}</url>
+	</publication>
+	</#list>
+	
+</hdrVemVariation>

@@ -8,6 +8,7 @@ function reportFasta(fastaFilePath) {
 	resolveRotation(fastaDocument, resultMap);
 	selectTargetReference(fastaDocument, resultMap);
 	drugResistanceScan(fastaDocument, resultMap);
+	vaccineEscapeScan(fastaDocument, resultMap);
 	return { hdrReportingResult : {
 		"sequenceResults": _.values(resultMap)
 	} };
@@ -30,22 +31,40 @@ function drugResistanceScan(fastaDocument, resultMap) {
 		var sequenceID = seqObj.id;
 		var resultObj = resultMap[sequenceID];
 		if(resultObj.targetReference != null) {
-			var rasVariationMatches;
+			var rasVariationMatchDocument;
 			glue.inMode("module/hbvFastaSequenceReporter", function() {
-				rasVariationMatches = glue.tableToObjects(glue.command(["string", "variation", "scan", 
+
+				rasVariationMatchDocument = glue.command(["string", "variation", "scan", 
 					"--fastaString", seqNts,
 					"--relRefName", "REF_MASTER_NC_003977", 
 					"--featureName", "RT",
 					"--targetRefName", resultObj.targetReference, 
 					"--linkingAlmtName", "AL_UNCONSTRAINED", 
 					"--whereClause", "hdr_ras.hdr_ras_alignment.alignment.name in ('AL_MASTER', 'AL_"+resultObj.genotype+"')", 
-					"--excludeAbsent"]));
+					"--excludeAbsent",
+					"--showMatchesAsDocument"]);
+				//glue.logInfo("rasVariationMatchDocument", rasVariationMatchDocument);
+
 			});
-			resultObj.detectedSubstitutions = _.map(rasVariationMatches, function(matchObj) {
+			resultObj.antiviralResistance = _.map(rasVariationMatchDocument.variationScanMatchCommandResult.variations, function(matchObj) {
 				var renderedRasDoc;
 				glue.inMode("reference/REF_MASTER_NC_003977/feature-location/RT/variation/"+matchObj.variationName, function() {
 					renderedRasDoc = glue.command(["render-object", "hdrRasVariationRenderer"]).hdrRasVariation;
-				});
+					if(matchObj.variationType == 'aminoAcidRegexPolymorphism') {
+						renderedRasDoc.detectedPattern = matchObj.matches[0].firstRefCodon + matchObj.matches[0].queryAAs;
+					} else if(matchObj.variationType == 'conjunction') {
+						var conjunctMatches = matchObj.matches[0].conjuncts;
+						renderedRasDoc.detectedPattern = "";
+						for(var i = 0; i < conjunctMatches.length; i++) {
+							if(i > 0) {
+								renderedRasDoc.detectedPattern +="+";
+							}
+							renderedRasDoc.detectedPattern += conjunctMatches[i].matches[0].firstRefCodon + conjunctMatches[i].matches[0].queryAAs;
+						}
+					} else {
+						throw new Error("Unable to handle variationType "+matchObj.variationType);
+					}
+				});	
 				return renderedRasDoc;
 			});
 		}
@@ -53,6 +72,63 @@ function drugResistanceScan(fastaDocument, resultMap) {
 	});
 	
 }
+
+function vaccineEscapeScan(fastaDocument, resultMap) {
+	_.each(fastaDocument.nucleotideFasta.sequences, function(seqObj) {
+		var seqNts = seqObj.sequence;
+		var sequenceID = seqObj.id;
+		var resultObj = resultMap[sequenceID];
+		_.each(["S", "PRE_S1"], function(featureName) {
+
+			if(resultObj.targetReference != null) {
+				var vemVariationMatchDocument;
+				glue.inMode("module/hbvFastaSequenceReporter", function() {
+
+					vemVariationMatchDocument = glue.command(["string", "variation", "scan", 
+						"--fastaString", seqNts,
+						"--relRefName", "REF_MASTER_NC_003977", 
+						"--featureName", featureName,
+						"--targetRefName", resultObj.targetReference, 
+						"--linkingAlmtName", "AL_UNCONSTRAINED", 
+						"--whereClause", "hdr_vem.hdr_vem_alignment.alignment.name in ('AL_MASTER', 'AL_"+resultObj.genotype+"')", 
+						"--excludeAbsent",
+						"--showMatchesAsDocument"]);
+					glue.logInfo("vemVariationMatchDocument", vemVariationMatchDocument);
+
+				});
+				if(resultObj.vaccineEscape == null) {
+					resultObj.vaccineEscape = [];
+				}
+				_.each(vemVariationMatchDocument.variationScanMatchCommandResult.variations, function(matchObj) {
+					var renderedVemDoc;
+					glue.inMode("reference/REF_MASTER_NC_003977/feature-location/"+featureName+"/variation/"+matchObj.variationName, function() {
+						renderedVemDoc = glue.command(["render-object", "hdrVemVariationRenderer"]).hdrVemVariation;
+						if(matchObj.variationType == 'aminoAcidRegexPolymorphism') {
+							renderedVemDoc.detectedPattern = matchObj.matches[0].firstRefCodon + matchObj.matches[0].queryAAs;
+						} else if(matchObj.variationType == 'conjunction') {
+							var conjunctMatches = matchObj.matches[0].conjuncts;
+							renderedVemDoc.detectedPattern = "";
+							for(var i = 0; i < conjunctMatches.length; i++) {
+								if(i > 0) {
+									renderedVemDoc.detectedPattern +="+";
+								}
+								renderedVemDoc.detectedPattern += conjunctMatches[i].matches[0].firstRefCodon + conjunctMatches[i].matches[0].queryAAs;
+							}
+						} else {
+							throw new Error("Unable to handle variationType "+matchObj.variationType);
+						}
+					});	
+					resultObj.vaccineEscape.push(renderedVemDoc);
+				});
+			}
+			
+		});
+	
+	});
+	
+}
+
+
 
 function selectTargetReference(fastaDocument, resultMap) {
 	_.each(_.pairs(resultMap), function(pair) {
