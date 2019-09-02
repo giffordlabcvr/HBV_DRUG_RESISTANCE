@@ -1,11 +1,30 @@
 <#include "/utils/glueDocUtils.ftlx">
 <hdrRasVariation>
 	<virusDomain>${featureLoc.feature.name}</virusDomain>
-	<substitution>${hdr_ras.display_name}</substitution>
-	<#list hdr_ras.hdr_ras_drug as ras_drug>
-	<drug glueType="Object[]">
-		<name>${ras_drug.hdr_drug.id}</name>
-		<abbreviatedName>${ras_drug.hdr_drug.abbreviated_name}</abbreviatedName>
+	<description>${description}</description>
+	<drug glueType="Object">
+		<name>${hdr_ras.hdr_drug.id}</name>
+		<abbreviatedName>${hdr_ras.hdr_drug.abbreviated_name}</abbreviatedName>
 	</drug>
+	<#list hdr_ras.hdr_ras_alignment as ras_alignment>
+	<clade glueType="Object[]">
+		<name>${ras_alignment.alignment.name}</name>
+		<displayName>${ras_alignment.alignment.displayName}</displayName>
+	</clade>
 	</#list>
+	<#list hdr_ras.hdr_ras_publication as ras_publication>
+	<publication glueType="Object[]">
+		<id>${ras_publication.hdr_publication.id}</id>
+		<title>${ras_publication.hdr_publication.title}</title>
+		<authorsShort>${ras_publication.hdr_publication.authors_short}</authorsShort>
+		<authorsFull>${ras_publication.hdr_publication.authors_full}</authorsFull>
+		<year>${ras_publication.hdr_publication.year?c}</year>
+		<journal>${ras_publication.hdr_publication.journal}</journal>
+		<volume>${ras_publication.hdr_publication.volume}</volume>
+		<@elem tag="issue" expr="context.issue" context=ras_publication.hdr_publication/>
+		<@elem tag="pages" expr="context.pages" context=ras_publication.hdr_publication/>
+		<url>${ras_publication.hdr_publication.url}</url>
+	</publication>
+	</#list>
+	
 </hdrRasVariation>

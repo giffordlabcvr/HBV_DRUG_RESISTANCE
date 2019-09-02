@@ -3,7 +3,6 @@ schema-project hbv
   create custom-table hdr_drug
   create custom-table hdr_ras
   create custom-table hdr_ras_alignment
-  create custom-table hdr_ras_drug
   create custom-table hdr_publication
   create custom-table hdr_ras_publication
   create custom-table hdr_vem
@@ -15,11 +14,11 @@ schema-project hbv
     exit
  
   table hdr_ras
-    create field display_name VARCHAR 10
+    create field display_name VARCHAR 30
     exit
 
   table hdr_vem
-    create field display_name VARCHAR 10
+    create field display_name VARCHAR 30
     exit
 
   table hdr_publication

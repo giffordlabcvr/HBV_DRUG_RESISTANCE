@@ -38,7 +38,7 @@ function drugResistanceScan(fastaDocument, resultMap) {
 					"--featureName", "RT",
 					"--targetRefName", resultObj.targetReference, 
 					"--linkingAlmtName", "AL_UNCONSTRAINED", 
-					"--whereClause", "hdr_ras != null", 
+					"--whereClause", "hdr_ras.hdr_ras_alignment.alignment.name in ('AL_MASTER', 'AL_"+resultObj.genotype+"')", 
 					"--excludeAbsent"]));
 			});
 			resultObj.detectedSubstitutions = _.map(rasVariationMatches, function(matchObj) {
