@@ -16,8 +16,6 @@ dependencies {
     gluetoolsCore group: 'cvr.ac.uk', name: 'gluetools-core', version: project.glueVersion, transitive: false
 }
 
-
-
 buildscript {
   repositories {
     // for axion-release
