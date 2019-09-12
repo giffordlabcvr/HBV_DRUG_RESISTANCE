@@ -7,17 +7,36 @@ ${getResourceAsString('hdrRasReportTransformer.css')?no_esc}
 </head>
 <body>
 
+<h2>Hepatitis B virus sequence report</h2>
+
+<table id="overview">
+<colgroup>
+    <col class="tableHeader"/>
+    <col/>
+</colgroup>
+
+<tr><td><b>File path</b></td><td>${hdrReport.filePath}</td></tr>
+<tr><td><b>Sequance data format</b></td><td>
+<#if hdrReport.sequenceDataFormat = "FASTA"> 
+Consensus (FASTA)
+</#if>
+</td></tr>
+<#if hdrReport.sequenceDataFormat = "FASTA"> 
+<tr>
+<td><b>Sequence ID</b></td>
+<td>${hdrReport.sequenceResult.id}</td>
+</tr>
+</#if>
+<tr><td><b>Report generation date</b></td><td>${hdrReport.reportGenerationDate}</td></tr>
+</table>
+
 <#assign pubIdToIdx = {}>
 <#assign pubIdToPubHash = {}>
 <#assign nextPubIdx = 1>
 
-<h2>Hepatitis B virus sequence report</h2>
-
-<#list hdrReportingResult.sequenceResults as sequenceResult>
-
-<h4>Sequence ${sequenceResult.sequenceID}</h4>
-
+<#assign sequenceResult = hdrReport.sequenceResult>
 <p>
+<h4>Sequence classification</h4>
 <table>
 <colgroup>
     <col class="tableHeader"/>
@@ -56,7 +75,7 @@ ${getResourceAsString('hdrRasReportTransformer.css')?no_esc}
 
 <p>
 <h4>Antiviral drug resistance</h4>
-<#if sequenceResult.antiviralResistance?size gt 0>
+<#if sequenceResult.antiviralResistance?? && sequenceResult.antiviralResistance?size gt 0>
 <table>
 <tr class="tableHeader">
   <td><b>Virus protein</b></td>
@@ -96,14 +115,18 @@ ${substitution.drug.name} (${substitution.drug.abbreviatedName})
 </#list>
 </table>
 <#else>
+<#if sequenceResult.antiviralResistance??>
 No resistant substitutions found
+<#else>
+No resistance scan was performed
+</#if>
 </#if>
 </p>
 
 
 <p>
 <h4>Vaccine escape</h4>
-<#if sequenceResult.vaccineEscape?size gt 0>
+<#if sequenceResult.vaccineEscape?? && sequenceResult.vaccineEscape?size gt 0>
 <table>
 <tr class="tableHeader">
   <td><b>Virus protein</b></td>
@@ -139,12 +162,14 @@ No resistant substitutions found
 </#list>
 </table>
 <#else>
+<#if sequenceResult.vaccineEscape??>
 No vaccine escape mutations found
+<#else>
+No vaccine escape scan was performed
+</#if>
 </#if>
 </p>
 
-
-</#list>
 
 <#if pubIdToIdx?size gt 0>
 <h4>References</h4>

@@ -1,0 +1,63 @@
+apply plugin: 'pl.allegro.tech.build.axion-release'
+
+project.version = scmVersion.version
+
+project.ext.set("glueVersion", "1.1.50")
+
+repositories {
+	mavenLocal()
+}
+
+configurations {
+	gluetoolsCore
+}
+
+dependencies {
+    gluetoolsCore group: 'cvr.ac.uk', name: 'gluetools-core', version: project.glueVersion, transitive: false
+}
+
+
+
+buildscript {
+  repositories {
+    // for axion-release
+    mavenCentral()
+  }
+  dependencies {
+    classpath group: 'pl.allegro.tech.build', name: 'axion-release-plugin', version: '1.9.3'
+  }
+}
+
+def scmCustomKey = '/Users/joshsinger/.ssh/github_id_rsa'
+
+scmVersion {
+	hooks {
+        pre 'fileUpdate', [file: 'hdrExtension.glue', pattern: {v, c -> /set extension-setting hdr extension-version $v/}, replacement: {v, c -> "set extension-setting hdr extension-version $v"}]
+		pre 'commit', {v, p -> "Release version $v"}
+    }
+
+    scmVersion {
+        versionCreator 'versionWithBranch'
+	    repository {
+	        customKey = file(scmCustomKey)
+	    }
+	    tag {
+	        prefix = 'HBV_DRUG_RESISTANCE'
+	    }
+    }
+    
+}
+
+def glueConfigFile = System.getProperty("user.name").equals('joshsinger') ? 'local-gluetools-config.xml' : 'remote-gluetools-config.xml'
+
+task copyGluetoolsJar(type: Copy) {
+    from configurations.gluetoolsCore
+    into "$buildDir/runtimeJars"
+    rename('gluetools-core-'+project.glueVersion+'.jar', 'gluetools-core.jar')
+}
+
+task buildHdrExtension(type: JavaExec, dependsOn: 'copyGluetoolsJar') {
+	classpath "build/runtimeJars/gluetools-core.jar"
+	main 'uk.ac.gla.cvr.gluetools.core.console.Console'
+	args '-c', glueConfigFile, '-i', 'run', 'file', 'hdrExtension.glue'
+}
