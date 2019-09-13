@@ -1,4 +1,5 @@
 <freemarkerDocTransformer>
 	<templateFileName>hdrRasReportTransformer.ftlh</templateFileName>
 	<resourceFileName>hdrRasReportTransformer.css</resourceFileName>
+	<resourceFileName>cvrLogo.svg</resourceFileName>
 </freemarkerDocTransformer>

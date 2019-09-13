@@ -2,6 +2,13 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
+@media screen {
+	body {
+	    margin-left: 50px;
+	    margin-right: 50px;
+	}
+}
+
 .tableHeader {
     background-color: #dbf0ff;
 }
@@ -35,4 +42,40 @@ th + th {
 
 td, th {
     padding: 8px;
+}
+
+.pagebreak { page-break-before: always; }
+
+#block1 {
+	width: 100%;
+	overflow: hidden;
+}
+
+#titleAndOverview {
+	float: left;
+	width: 50%;
+	padding-bottom: 100%;
+    margin-bottom: -100%;
+}
+
+#overview {
+    width:90%;
+}
+
+#systemConfigTable {
+    width:50%;
+}
+
+
+#logos {
+	float: left;
+	width: 50%;
+	text-align: right;
+	padding-bottom: 100%;
+    margin-bottom: -100%;
+}
+
+#cvrLogo {
+	display: inline-block;
+	height:160px;	
 }

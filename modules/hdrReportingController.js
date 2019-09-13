@@ -118,6 +118,10 @@ function addOverview(hdrReport) {
 	hdrReport.hdrReport.reportGenerationDate = dd + '/' + mm + '/' + yyyy;
 	hdrReport.hdrReport.engineVersion = 
 		glue.command(["glue-engine","show-version"]).glueEngineShowVersionResult.glueEngineVersion;
+	hdrReport.hdrReport.projectVersion = 
+		glue.command(["show","setting","project-version"]).projectShowSettingResult.settingValue;
+	hdrReport.hdrReport.extensionVersion = 
+		glue.command(["show","extension-setting","hdr","extension-version"]).projectShowExtensionSettingResult.extSettingValue;
 	
 }
 

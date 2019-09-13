@@ -7,6 +7,9 @@ ${getResourceAsString('hdrRasReportTransformer.css')?no_esc}
 </head>
 <body>
 
+
+<div id="block1">
+<div id="titleAndOverview">
 <h2>Hepatitis B virus sequence report</h2>
 
 <table id="overview">
@@ -29,6 +32,15 @@ Consensus (FASTA)
 </#if>
 <tr><td><b>Report generation date</b></td><td>${hdrReport.reportGenerationDate}</td></tr>
 </table>
+
+</div>
+<div id="logos">
+<img id="cvrLogo" alt="CVR logo" src="data:image/svg+xml;base64,${getResourceAsBase64('cvrLogo.svg')}" />
+</div>
+</div>
+
+
+
 
 <#assign pubIdToIdx = {}>
 <#assign pubIdToPubHash = {}>
@@ -72,6 +84,9 @@ Consensus (FASTA)
 </tr>
 </table>
 </p>
+
+<div class="pagebreak"> </div>
+
 
 <p>
 <h4>Antiviral drug resistance</h4>
@@ -123,6 +138,7 @@ No resistance scan was performed
 </#if>
 </p>
 
+<div class="pagebreak"> </div>
 
 <p>
 <h4>Vaccine escape</h4>
@@ -170,6 +186,7 @@ No vaccine escape scan was performed
 </#if>
 </p>
 
+<div class="pagebreak"> </div>
 
 <#if pubIdToIdx?size gt 0>
 <h4>References</h4>
@@ -197,6 +214,24 @@ ${publication.journal}
 </#list>
 </small>
 </#if>
+
+<div class="pagebreak"> </div>
+
+<div id="configuration">
+<h4>System configuration</h4>
+<table id="systemConfigTable">
+<colgroup style="width:50%">
+    <col class="tableHeader"/>
+</colgroup>
+<colgroup style="width:50%">
+    <col/>
+</colgroup>
+<tr><td><b>GLUE engine version</b></td><td>${hdrReport.engineVersion}</td></tr>
+<tr><td><b>HBV project version</b></td><td>${hdrReport.projectVersion}</td></tr>
+<tr><td><b>Drug resistance / vaccine escape extension version</b></td><td>${hdrReport.extensionVersion}</td></tr>
+</table>
+</div>
+
 
 </body>
 </html>
