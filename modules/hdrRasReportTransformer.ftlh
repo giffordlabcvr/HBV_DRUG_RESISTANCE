@@ -12,25 +12,29 @@ ${getResourceAsString('hdrRasReportTransformer.css')?no_esc}
 <div id="titleAndOverview">
 <h2>Hepatitis B virus sequence report</h2>
 
+<p>
+	THIS FUNCTIONALITY IS PURELY FOR DEMONSTRATION PURPOSES AND SHOULD NOT IN ANY WAY BE USED IN A PUBLIC HEALTH, MEDICAL OR CLINICAL CONTEXT.		
+</p>
+
 <table id="overview">
 <colgroup>
     <col class="tableHeader"/>
     <col/>
 </colgroup>
 
-<tr><td><b>File path</b></td><td>${hdrReport.filePath}</td></tr>
+<tr><td><b>File path</b></td><td>${hbvReport.filePath}</td></tr>
 <tr><td><b>Sequance data format</b></td><td>
-<#if hdrReport.sequenceDataFormat = "FASTA"> 
+<#if hbvReport.sequenceDataFormat = "FASTA"> 
 Consensus (FASTA)
 </#if>
 </td></tr>
-<#if hdrReport.sequenceDataFormat = "FASTA"> 
+<#if hbvReport.sequenceDataFormat = "FASTA"> 
 <tr>
 <td><b>Sequence ID</b></td>
-<td>${hdrReport.sequenceResult.id}</td>
+<td>${hbvReport.sequenceResult.id}</td>
 </tr>
 </#if>
-<tr><td><b>Report generation date</b></td><td>${hdrReport.reportGenerationDate}</td></tr>
+<tr><td><b>Report generation date</b></td><td>${hbvReport.reportGenerationDate}</td></tr>
 </table>
 
 </div>
@@ -46,7 +50,7 @@ Consensus (FASTA)
 <#assign pubIdToPubHash = {}>
 <#assign nextPubIdx = 1>
 
-<#assign sequenceResult = hdrReport.sequenceResult>
+<#assign sequenceResult = hbvReport.sequenceResult>
 <p>
 <h4>Sequence classification</h4>
 <table>
@@ -56,32 +60,46 @@ Consensus (FASTA)
 </colgroup>
 
 <tr>
-<td><b>Genotype</b></td>
-<#if sequenceResult.genotypingStatus = "RESOLVED">
-<td>${sequenceResult.genotype}</td>
+<td><b>Sequence identified as HBV?</b></td>
+<#if sequenceResult.isForwardHbv>
+<td>Yes</td>
 <#else>
-<td>Unknown</td>
+<td>No</td>
 </#if>
 </tr>
-
-<tr>
-<td><b>Reverse complement?</b></td>
-<#if sequenceResult.directionStatus = "RESOLVED">
-<#if sequenceResult.direction = "FORWARD"><td>No</td></#if>
-<#if sequenceResult.direction = "REVERSE"><td>Yes</td></#if>
-<#else>
-<td>Unknown</td>
-</#if>
-</tr>
-
 <tr>
 <td><b>Rightward nucleotide rotation</b></td>
-<#if sequenceResult.rotationStatus = "RESOLVED">
+<#if sequenceResult.rotationSuccess>
+<#if sequenceResult.rotationStatus = 'ROTATION_NECESSARY'>
 <td>${sequenceResult.rotationNts?c}</td>
+<#else>
+<td>No rotation necessary</td>
+</#if>
 <#else>
 <td>Unknown</td>
 </#if>
 </tr>
+
+
+<tr>
+<td><b>Genotype</b></td>
+<#if sequenceResult.genotypingResult?? && sequenceResult.genotypingResult.genotypeCategoryResult??>
+<td>${sequenceResult.genotypingResult.genotypeCategoryResult.shortRenderedName?replace('Genotype ', '')}</td>
+<#else>
+<td>Unknown</td>
+</#if>
+</tr>
+
+<tr>
+<td><b>Subgenotype</b></td>
+<#if sequenceResult.genotypingResult?? && sequenceResult.genotypingResult.subgenotypeCategoryResult??>
+<td>${sequenceResult.genotypingResult.subgenotypeCategoryResult.shortRenderedName?replace('Subgenotype ', '')}</td>
+<#else>
+<td>Unknown</td>
+</#if>
+</tr>
+
+
 </table>
 </p>
 
@@ -226,9 +244,9 @@ ${publication.journal}
 <colgroup style="width:50%">
     <col/>
 </colgroup>
-<tr><td><b>GLUE engine version</b></td><td>${hdrReport.engineVersion}</td></tr>
-<tr><td><b>HBV project version</b></td><td>${hdrReport.projectVersion}</td></tr>
-<tr><td><b>Drug resistance / vaccine escape extension version</b></td><td>${hdrReport.extensionVersion}</td></tr>
+<tr><td><b>GLUE engine version</b></td><td>${hbvReport.engineVersion}</td></tr>
+<tr><td><b>HBV project version</b></td><td>${hbvReport.projectVersion}</td></tr>
+<tr><td><b>Drug resistance / vaccine escape extension version</b></td><td>${hbvReport.extensionVersion}</td></tr>
 </table>
 </div>
 
