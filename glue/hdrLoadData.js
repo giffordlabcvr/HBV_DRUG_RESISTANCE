@@ -173,7 +173,7 @@ _.each(drRowObjs, function(drRowObj) {
 			}
 			
 			// glue.logInfo("wildTypeAA: "+wildTypeAA+", codonLabel: "+codonLabel+", mutationAAs: "+mutationAAs);
-			glue.inMode("reference/REF_MASTER_NC_003977/feature-location/RT", function() {
+			glue.inMode("reference/REF_NUMBERING_X02763/feature-location/RT", function() {
 				glue.command(["create", "variation", variationName, 
 					"--vtype", "aminoAcidRegexPolymorphism", 
 					"--description", part,
@@ -189,7 +189,7 @@ _.each(drRowObjs, function(drRowObj) {
 		});
 		if(parts.length > 1) {
 			var conjunctionVariationName = "hdr_ras:"+rowIdx+"_"+altIdx;
-			glue.inMode("reference/REF_MASTER_NC_003977/feature-location/RT", function() {
+			glue.inMode("reference/REF_NUMBERING_X02763/feature-location/RT", function() {
 				glue.command(["create", "variation", conjunctionVariationName, 
 					"--vtype", "conjunction", 
 					"--description", mutationString.replace(/\s/g, "")]);
@@ -265,7 +265,7 @@ _.each(veRowObjs, function(veRowObj) {
 	var nativeAA = veRowObj["Native Amino Acid"].trim();
 	var mutationString = veRowObj["Escape Mutation"].replace(/\s/g, "");
 	var variationName = "hdr_vem:"+rowIdx;
-	glue.inMode("reference/REF_MASTER_NC_003977/feature-location/"+geneString, function() {
+	glue.inMode("reference/REF_NUMBERING_X02763/feature-location/"+geneString, function() {
 		glue.command(["create", "variation", variationName, 
 			"--vtype", "aminoAcidRegexPolymorphism", 
 			"--description", nativeAA+codonLabel+mutationString,
