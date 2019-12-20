@@ -2,7 +2,7 @@ run file glue/hdrDeleteExtension.glue
 run file glue/hdrSchemaExtensions.glue
 
 project hbv
-  set extension-setting hdr extension-version 0.1.4
+  set extension-setting hdr extension-version 0.1.5
   run file glue/hdrModules.glue
   run script glue/hdrLoadData.js
   
