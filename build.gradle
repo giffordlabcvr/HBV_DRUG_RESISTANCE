@@ -2,7 +2,7 @@ apply plugin: 'pl.allegro.tech.build.axion-release'
 
 project.version = scmVersion.version
 
-project.ext.set("glueVersion", "1.1.66")
+project.ext.set("glueVersion", "1.1.68")
 
 repositories {
 	mavenLocal()
