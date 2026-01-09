@@ -1,5 +1,6 @@
 <ecmaFunctionInvoker>
 	<scriptFileName>hdrReportingController.js</scriptFileName>
+	
 	<function>
 		<name>reportFastaWeb</name>
 		<consumesBinary>true</consumesBinary>
@@ -11,5 +12,14 @@
 		</parameter>
 		<documentResultType/> 
 	</function>
+	
+	<function>
+		<name>reportFastaCli</name>
+		<parameter>
+			<name>fastaFilePath</name>
+		</parameter>
+		<documentResultType/> 
+	</function>
+
 </ecmaFunctionInvoker>
 	

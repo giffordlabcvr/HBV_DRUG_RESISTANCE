@@ -173,3 +173,84 @@ function vaccineEscapeScan(sequenceNts, sequenceResult, genotypeAlmtName) {
 	});
 	
 }
+
+//### CLI Usage
+
+function reportFastaCli(filePath) {
+  glue.log("FINE", "hdrReportingController.reportFastaCli invoked, filePath="+filePath);
+
+  // 1) read nucleotide FASTA from a file path
+  var fastaDocument;
+  glue.inMode("module/hbvFastaUtility", function() {
+    // If hbvFastaUtility already has something like this, use it.
+    // Common names in GLUE utilities are "load-nucleotide-fasta" / "import-nucleotide-fasta" style.
+    fastaDocument = glue.command(["load-nucleotide-fasta", filePath]);
+  });
+
+  // 2) reuse the same machinery as reportFastaWeb
+  return reportFastaDocumentCommon(fastaDocument, filePath);
+}
+
+function reportFastaDocumentCommon(fastaDocument, filePath) {
+  var numSequencesInFile = fastaDocument.nucleotideFasta.sequences.length;
+  if(numSequencesInFile == 0) throw new Error("No sequences found in FASTA file");
+
+  var hdrResult;
+  glue.inMode("module/hbvReportingController", function() {
+    hdrResult = glue.command({
+      "invoke-function": {
+        "functionName": "reportDocument",
+        "document": {
+          "reportFastaDocument": { "fastaDocument": fastaDocument, "filePath": filePath }
+        }
+      }
+    });
+  });
+
+  var extensionVersion =
+    glue.command(["show","extension-setting","hdr","extension-version"])
+      .projectShowExtensionSettingResult.extSettingValue;
+
+  var fastaMap = {};
+  _.each(fastaDocument.nucleotideFasta.sequences, function(seqObj) { fastaMap[seqObj.id] = seqObj; });
+
+  var resultMap = {};
+  _.each(hdrResult.hbvWebReport.results, function(hbvResultObj) {
+    resultMap[hbvResultObj.hbvReport.sequenceResult.id] = hbvResultObj.hbvReport.sequenceResult;
+    hbvResultObj.hbvReport.extensionVersion = extensionVersion;
+  });
+
+  var i = 0;
+  _.each(_.values(fastaMap), function(seqObj) {
+    var resultObj = resultMap[seqObj.id];
+    if(resultObj && resultObj.isForwardHbv && resultObj.rotationSuccess &&
+       resultObj.genotypingResult && resultObj.genotypingResult.genotypeCategoryResult) {
+
+      var sequenceNts = seqObj.sequence;
+      if(resultObj.rotationStatus == "ROTATION_NECESSARY") {
+        sequenceNts = rightRotate(sequenceNts, resultObj.rotationNts);
+      }
+      drugResistanceScan(sequenceNts, resultObj, resultObj.genotypingResult.genotypeCategoryResult.finalClade);
+    }
+    i++;
+    glue.setRunningDescription("Scanned for drug resistance "+i+"/"+numSequencesInFile);
+  });
+
+  i = 0;
+  _.each(_.values(fastaMap), function(seqObj) {
+    var resultObj = resultMap[seqObj.id];
+    if(resultObj && resultObj.isForwardHbv && resultObj.rotationSuccess &&
+       resultObj.genotypingResult && resultObj.genotypingResult.genotypeCategoryResult) {
+
+      var sequenceNts = seqObj.sequence;
+      if(resultObj.rotationStatus == "ROTATION_NECESSARY") {
+        sequenceNts = rightRotate(sequenceNts, resultObj.rotationNts);
+      }
+      vaccineEscapeScan(sequenceNts, resultObj, resultObj.genotypingResult.genotypeCategoryResult.finalClade);
+    }
+    i++;
+    glue.setRunningDescription("Scanned for vaccine escape "+i+"/"+numSequencesInFile);
+  });
+
+  return hdrResult;
+}
